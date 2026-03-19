@@ -1,0 +1,140 @@
+/* Root-level: full viewport */
+html, body, #root {
+  height: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 🌌 Professional dark background */
+.home-bg {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top left, #0f0f0f, #1a1a1a);
+  position: relative;
+  overflow: hidden;
+  padding: clamp(12px, 3vw, 24px);
+}
+
+/* ✨ Floating particles */
+.particles {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.particles span {
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  animation: floatUp 12s linear infinite;
+}
+@keyframes floatUp {
+  0%   { transform: translateY(100vh) scale(0.5); opacity: 0; }
+  50%  { opacity: 1; }
+  100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+}
+
+/* 🧱 Layout */
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 1;
+  animation: fadeSlideUp 0.8s ease-out;
+}
+
+.home-image {
+  max-width: 420px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  animation: fadeIn 1.2s ease-out;
+}
+
+.home-text {
+  max-width: 600px;
+  text-align: left;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* 💡 Glowing heading */
+.home-text h2 {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+  color: #00c9a7;
+  margin-bottom: 0.6rem;
+  text-shadow: 0 0 12px rgba(0, 201, 167, 0.6);
+}
+
+/* 📝 Description */
+.home-text p {
+  font-size: clamp(1rem, 2.4vw, 1.2rem);
+  color: #e0e0e0;
+  margin-top: 0.2rem;
+  line-height: 1.5;
+  animation: fadeIn 1.2s ease-out;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #cccccc;
+  margin-top: 0.6rem;
+  opacity: 0.9;
+}
+
+/* 🧬 Icons */
+.animated-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: clamp(0.6rem, 2vw, 1rem);
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  animation: fadeIn 1.4s ease-out;
+}
+.svg-icon {
+  width: clamp(20px, 4vw, 28px);
+  height: clamp(20px, 4vw, 28px);
+  animation: pulse 2s infinite alternate;
+}
+@keyframes pulse {
+  from { transform: scale(1); }
+  to   { transform: scale(1.12); }
+}
+
+/* 🎬 Animations */
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .home-text {
+    text-align: center;
+  }
+}

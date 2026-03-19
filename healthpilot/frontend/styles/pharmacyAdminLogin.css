@@ -1,0 +1,95 @@
+.pharmacy-admin-login {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff9a76, #845ec2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.pharmacy-admin-login h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+  animation: slideDown 0.8s ease-out;
+}
+
+.pharmacy-admin-login form {
+  background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 420px;
+  animation: floatUp 1s ease-out;
+  color: #fff;
+}
+
+.pharmacy-admin-login input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.pharmacy-admin-login input::placeholder {
+  color: #e0e0e0;
+}
+
+.pharmacy-admin-login input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.pharmacy-admin-login button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #ffffff;
+  color: #845ec2;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.pharmacy-admin-login button:hover {
+  background: #f0f0f0;
+  transform: scale(1.03);
+}
+
+/* 🔹 Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🔹 Responsive */
+@media (max-width: 600px) {
+  .pharmacy-admin-login form {
+    padding: 2rem;
+  }
+
+  .pharmacy-admin-login h2 {
+    font-size: 1.6rem;
+  }
+}

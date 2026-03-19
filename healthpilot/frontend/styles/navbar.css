@@ -1,0 +1,164 @@
+/* Animated gradient placed behind navbar content (won't be overridden) */
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.12rem 0.5rem; /* tighter padding */
+  height: 40px;            /* reduced height */
+  background: transparent; /* keep navbar itself transparent */
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.15rem;      /* increased text size */
+  overflow: hidden;
+}
+
+/* Animated gradient layer behind everything */
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  z-index: 0;
+  background: linear-gradient(-45deg, #00c6ff, #ff6ec4, #f9d423, #00c6ff);
+  background-size: 400% 400%;
+  animation: navbarGradientShift 8s linear infinite;
+  transform: translateZ(0); /* promote to its own layer for smoother animation */
+  filter: saturate(1.05) blur(0.2px);
+  opacity: 0.98;
+}
+
+/* Keep navbar content above the gradient */
+.navbar > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Keyframes for gradient motion */
+@keyframes navbarGradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Logo styling (bigger, bold) */
+.logo {
+  font-size: 1.8rem; /* larger logo */
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.4px;
+  animation: logoPulse 2.2s ease-in-out infinite alternate;
+}
+
+/* subtle logo pulse */
+@keyframes logoPulse {
+  from { text-shadow: 0 0 6px rgba(255,255,255,0.9); transform: translateY(0); }
+  to   { text-shadow: 0 0 14px rgba(255,235,59,0.9); transform: translateY(-1px); }
+}
+
+/* Right section and link spacing tightened */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Nav links compact but larger text */
+.nav-links,
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.nav-links a,
+.auth-buttons a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.15rem; /* increased text size */
+  font-weight: 700;
+  padding: 0.18rem 0.45rem; /* compact padding */
+  border-radius: 6px;
+  transition: background-color 180ms ease, transform 120ms ease;
+  white-space: nowrap;
+}
+
+/* Hover and active states */
+.nav-links a:hover,
+.auth-buttons a:hover {
+  background-color: rgba(255,255,255,0.12);
+  transform: translateY(-1px) scale(1.02);
+}
+
+.nav-links a:active,
+.auth-buttons a:active {
+  transform: scale(0.98);
+  background-color: rgba(0,0,0,0.12);
+}
+
+/* Focus outline for keyboard users */
+.nav-links a:focus-visible,
+.auth-buttons a:focus-visible {
+  outline: 2px solid rgba(255,235,59,0.95);
+  outline-offset: 2px;
+}
+
+/* Responsive: keep compact on small screens */
+@media (max-width: 700px) {
+  .navbar {
+    padding: 0.08rem 0.4rem;
+    height: 44px;
+    font-size: 1.05rem;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .nav-links a,
+  .auth-buttons a {
+    font-size: 1.05rem;
+    padding: 0.14rem 0.35rem;
+  }
+
+  .nav-right { gap: 0.3rem; }
+}
+
+
+/* Ensure logo sits above gradient and stays readable */
+.logo {
+  color: #ffffff;
+  font-weight: 800;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 0 8px rgba(255,255,255,0.6);
+  z-index: 2;
+  white-space: nowrap;
+}
+
+/* Match button styling to links (consistent look) */
+.logout-btn {
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0.18rem 0.45rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 180ms ease, transform 120ms ease;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+.logout-btn:hover {
+  background-color: rgba(255,255,255,0.12);
+  transform: translateY(-1px) scale(1.02);
+}
+
+.logout-btn:active {
+  transform: scale(0.98);
+  background-color: rgba(0,0,0,0.12);
+}
+
+.logout-btn:focus-visible {
+  outline: 2px solid rgba(255,235,59,0.95);
+  outline-offset: 2px;
+}

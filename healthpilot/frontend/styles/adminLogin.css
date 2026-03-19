@@ -1,0 +1,109 @@
+/* 🔹 Page container */
+.admin-login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 1s ease-in;
+  color: #fff;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* 🔹 Title */
+.admin-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+  animation: slideDown 0.8s ease-out;
+}
+
+.lock-icon {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* 🔹 Subtitle */
+.admin-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1.2s ease-in;
+  text-align: center;
+}
+
+/* 🔹 Card container */
+.admin-card-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 🔹 Admin card */
+.admin-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem 3rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: popIn 0.8s ease-out;
+  width: 220px;
+}
+
+.admin-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+/* 🔹 Icon inside card */
+.admin-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* 🔹 Text inside card */
+.admin-card span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* 🔹 Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* 🔹 Responsive tweaks */
+@media (max-width: 600px) {
+  .admin-card {
+    width: 90%;
+    padding: 1.5rem 2rem;
+  }
+
+  .admin-title {
+    font-size: 2rem;
+  }
+
+  .admin-subtitle {
+    font-size: 1rem;
+  }
+}

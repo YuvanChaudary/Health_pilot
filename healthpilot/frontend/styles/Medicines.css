@@ -1,0 +1,187 @@
+/* 🌐 Page Layout with static background */
+.medicine-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  background: url("../../images/medicine background page.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* 💡 Title Styling */
+.medicine-explorer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00c9a7;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px rgba(0, 201, 167, 0.6);
+}
+
+/* 🧩 Filter Labels */
+.medicine-filter-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00c9a7;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+/* 📦 Input Group Wrapper */
+.medicine-input-group {
+  max-width: 420px;
+  margin-bottom: 1rem;
+}
+
+/* 🔍 Search Inputs */
+.medicine-search-input {
+  width: 100%;
+  padding: 0.65rem 0.9rem;
+  font-size: 0.95rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.medicine-search-input:focus {
+  outline: none;
+  border-color: #00c9a7;
+  box-shadow: 0 0 0 2px rgba(0, 201, 167, 0.4);
+}
+
+/* 🔘 Search Button */
+.medicine-search-button {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  background-color: #00c9a7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.medicine-search-button:hover {
+  background-color: #00e6c3;
+  transform: scale(1.03);
+}
+
+/* 🧠 Autocomplete Suggestions */
+.medicine-suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(250, 165, 17, 0.895);
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.medicine-suggestion-item {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.medicine-suggestion-item:hover {
+  background: #f1f5f9;
+}
+
+/* 🧱 Grid Layout */
+.medicine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 💊 Medicine Card */
+.medicine-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgb(37, 25, 255);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: cardFade 0.35s ease both;
+}
+
+.medicine-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(242, 5, 5, 0.742);
+}
+
+/* 🏷️ Text Styles */
+.medicine-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 0.25rem;
+}
+
+.medicine-disease {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.medicine-cost {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #16a34a;
+  margin-bottom: 0.5rem;
+}
+
+.medicine-section {
+  font-size: 0.95rem;
+  color: #000000;
+  margin-bottom: 0.4rem;
+}
+
+/* 🔽 react-select dropdown overrides */
+.css-13cymwt-control, .css-1nmdiq5-control {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  box-shadow: none;
+  padding: 2px;
+  background-color: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.css-13cymwt-control:hover, .css-1nmdiq5-control:hover {
+  border-color: #00c9a7;
+}
+
+.css-1nmdiq5-control:focus-within {
+  border-color: #00c9a7;
+  box-shadow: 0 0 0 2px rgba(0, 201, 167, 0.4);
+}
+
+.css-1p3m7a8-multiValue {
+  background-color: #e0f2fe;
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin: 2px;
+}
+
+.css-12jo7m5 {
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
+.css-1hb7zxy-IndicatorsContainer {
+  color: #00c9a7;
+}
+
+/* 🔹 Card fade-in animation */
+@keyframes cardFade {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

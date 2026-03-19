@@ -1,0 +1,131 @@
+/* 🔹 Page container with static background */
+.pharmacy-page {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background: url("../../images/pharmacy image.png") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* keeps image static while scrolling */
+}
+
+/* 🔹 Page title */
+.pharmacy-page h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 1.5rem;
+}
+
+/* 🔹 Search input */
+.pharmacy-search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pharmacy-search-input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+/* 🔹 Suggestions dropdown */
+.pharmacy-suggestions {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.25rem;
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.pharmacy-suggestion-item {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.pharmacy-suggestion-item:hover {
+  background-color: #e0f2ff;
+}
+
+/* 🔹 Grid layout */
+.pharmacy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* 🔹 Pharmacy card */
+.pharmacy-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: cardFade 0.4s ease both;
+}
+
+.pharmacy-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+/* 🔹 Card content */
+.pharmacy-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 0.25rem;
+}
+
+.pharmacy-address {
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.pharmacy-medicines {
+  font-size: 0.9rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.pharmacy-price {
+  font-weight: 600;
+  color: #059669;
+  margin-bottom: 0.75rem;
+}
+
+/* 🔹 Contact links */
+.pharmacy-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.pharmacy-link {
+  color: #2563eb;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.pharmacy-link:hover {
+  text-decoration: underline;
+}
+
+/* 🔹 Card fade-in animation */
+@keyframes cardFade {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

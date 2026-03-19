@@ -1,0 +1,96 @@
+.pharmacy-admin-form {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f0f0f, #2a0845); /* dark black to purple */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  animation: fadeIn 1s ease-in;
+}
+
+.pharmacy-admin-form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #ffffff;
+  animation: slideDown 0.8s ease-out;
+}
+
+.pharmacy-admin-form form {
+  background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 500px;
+  animation: floatUp 1s ease-out;
+  color: #fff;
+}
+
+.pharmacy-admin-form input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+.pharmacy-admin-form input::placeholder {
+  color: #cccccc;
+}
+
+.pharmacy-admin-form input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #845ec2;
+}
+
+.pharmacy-admin-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #845ec2;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.pharmacy-admin-form button:hover {
+  background: #a178f5;
+  transform: scale(1.03);
+}
+
+/* 🔹 Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🔹 Responsive */
+@media (max-width: 600px) {
+  .pharmacy-admin-form form {
+    padding: 2rem;
+  }
+
+  .pharmacy-admin-form h2 {
+    font-size: 1.6rem;
+  }
+}

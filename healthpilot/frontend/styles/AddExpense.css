@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* 🌌 Page Layout with animated dark background */
+.expense-page {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(-45deg, #0f172a, #1e293b, #111827, #0a0f1c);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+}
+
+/* ✨ Floating particle overlay */
+.expense-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 30%, rgba(59,130,246,0.15), transparent 60%),
+              radial-gradient(circle at 80% 70%, rgba(16,185,129,0.15), transparent 60%),
+              radial-gradient(circle at 50% 50%, rgba(236,72,153,0.15), transparent 60%);
+  animation: floatParticles 20s linear infinite;
+  z-index: 0;
+}
+
+/* Ensure form content sits above background */
+.expense-title,
+.expense-form {
+  position: relative;
+  z-index: 1;
+}
+
+/* 🔮 Title */
+.expense-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #93c5fd;
+  text-align: center;
+  margin-bottom: 2rem;
+  animation: fadeIn 0.8s ease-in;
+}
+
+/* 🧾 Form Container */
+.expense-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.05);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  animation: fadeIn 1s ease-in;
+  color: #e5e7eb;
+}
+
+/* 🏷️ Labels */
+.expense-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-top: 1rem;
+}
+
+/* ✏️ Inputs and Selects */
+.expense-form input,
+.expense-form select {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  font-size: 1rem;
+  background-color: rgba(255,255,255,0.1);
+  color: #f1f5f9;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* 🧾 Placeholder styling */
+.expense-form input::placeholder {
+  color: #cbd5e1;
+}
+
+/* ✏️ Focus styles */
+.expense-form input:focus,
+.expense-form select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.4);
+  outline: none;
+}
+
+/* 🧾 Ensure dropdown options are readable */
+.expense-form select option {
+  color: #f1f5f9;
+  background-color: #1e293b;
+}
+
+/* 🎬 Dropdown animation */
+.expense-form select {
+  animation: dropdownFade 0.4s ease-in-out;
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: scaleY(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+/* 💸 Horizontal layout for Amount field */
+.expense-field-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.expense-inline-label {
+  font-weight: 600;
+  color: #f1f5f9;
+  min-width: 90px;
+  padding-top: 0.3rem;
+}
+
+/* 🚀 Submit Button */
+.expense-form button {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.8rem;
+  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.expense-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59,130,246,0.5);
+}
+
+/* ✨ Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes floatParticles {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}

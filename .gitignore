@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+venv1/
+venv2/
+ENV/
+env/
+*.sqlite3
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Temp files
+*.log
+*.tmp
+*.zip
+*.mp4
+
+# IDE
+.idea/
+
+# Build
+dist/
+build/
+
+# Python bytecode
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,120 @@
+/* 🌐 Page Layout with dark overlay */
+.about-page {
+  position: relative;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  background: url("../../images/about-background.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: fadeIn 0.6s ease-in;
+}
+
+/* Dark overlay for depth */
+.about-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55); /* darkening */
+  -webkit-backdrop-filter: blur(4px); /* Safari support */
+  backdrop-filter: blur(4px);   /* filtered blur */
+  z-index: 0;
+}
+
+/* Ensure content sits above overlay */
+.about-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* 🧠 Title & Intro */
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f1f5f9; /* light text for contrast */
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-intro {
+  font-size: 1.1rem;
+  color: #e2e8f0;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+/* 🧱 Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+/* 💡 Cards with glassmorphism */
+.about-card {
+  background: rgba(255,255,255,0.08);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: slideUp 0.6s ease forwards;
+  color: #f8fafc;
+}
+
+.about-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.4);
+}
+
+.about-card h2 {
+  font-size: 1.3rem;
+  color: #93c5fd; /* soft blue accent */
+  margin-bottom: 0.5rem;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  color: #e2e8f0;
+}
+
+/* 🎯 Footer */
+.about-footer {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-footer h3 {
+  font-size: 1.5rem;
+  color: #60a5fa;
+  margin-bottom: 0.5rem;
+}
+
+.about-footer p {
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+/* ✨ Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.slide-up {
+  animation: slideUp 0.8s ease forwards;
+}

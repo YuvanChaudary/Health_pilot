@@ -1,0 +1,101 @@
+name,address,specialty,area,hospital,phone
+Dr. Mehta,#1 Old Airport Road,Cardiology,Old Airport Road,Manipal Hospital,080-45678901
+Dr. Ramesh,#2 Bannerghatta Road,Oncology,Bannerghatta Road,Apollo Cancer Centre,080-45678902
+Dr. Priya,#3 Sheshadripuram,Neurology,Sheshadripuram,NIMHANS,080-45678903
+Dr. Kumar,#4 Hebbal,Pediatrics,Hebbal,Columbia Asia Hospital,080-45678904
+Dr. Anjali,#5 Hosur Road,Orthopedics,Hosur Road,Sparsh Hospital,080-45678905
+Dr. Suresh,#6 Koramangala,Gastroenterology,Koramangala,St. John's Hospital,080-45678906
+Dr. Neha,#7 Outer Ring Road,Endocrinology,Outer Ring Road,Aster CMI Hospital,080-45678907
+Dr. Raj,#8 Hebbal,Nephrology,Hebbal,Manipal Hospital,080-45678908
+Dr. Sneha,#9 Millers Road,Dermatology,Millers Road,Kaya Skin Clinic,080-45678909
+Dr. Asha,#10 Jayanagar,Gynecology,Jayanagar,Cloudnine Hospital,080-45678910
+Dr. Rekha,#11 Indiranagar,Obstetrics,Indiranagar,Motherhood Hospital,080-45678911
+Dr. Nitin,#12 Marathahalli,Pediatrics,Marathahalli,Rainbow Children's Hospital,080-45678912
+Dr. Varun,#13 Kengeri,Hepatology,Kengeri,BGS Global Hospital,080-45678913
+Dr. Deepa,#14 Bannerghatta Road,Cardiology,Bannerghatta Road,Jayadeva Institute,080-45678914
+Dr. Shalini,#15 Hosur Road,Oncology,Hosur Road,HCG Cancer Centre,080-45678915
+Dr. Arvind,#16 Shivajinagar,General Medicine,Shivajinagar,St. Philomena's Hospital,080-45678916
+Dr. Leela,#17 KR Market,Emergency Medicine,KR Market,Victoria Hospital,080-45678917
+Dr. Soni,#18 Rajajinagar,Pulmonology,Rajajinagar,Fortis Hospital,080-45678918
+Dr. Ravi,#19 Malleshwaram,General Surgery,Malleshwaram,Apollo Hospital,080-45678919
+Dr. Mohan,#20 Basaveshwaranagar,Urology,Basaveshwaranagar,Columbia Asia Hospital,080-45678920
+Dr. Kiran,#21 Infantry Road,Orthopedics,Infantry Road,Hosmat Hospital,080-45678921
+Dr. Nisha,#22 Mathikere,Neurology,Mathikere,Sakra World Hospital,080-45678922
+Dr. Agarwal,#23 Jayanagar,Ophthalmology,Jayanagar,Narayana Nethralaya,080-45678923
+Dr. Patel,#24 Basavanagudi,Ophthalmology,Basavanagudi,Sankara Eye Hospital,080-45678924
+Dr. Smita,#25 HSR Layout,Dentistry,HSR Layout,Clove Dental,080-45678925
+Dr. Joshi,#26 Indiranagar,Dentistry,Indiranagar,Partha Dental,080-45678926
+Dr. Ashwin,#27 Rajajinagar,Diabetology,Rajajinagar,Aster RV Hospital,080-45678927
+Dr. Radhika,#28 Koramangala,Diabetology,Koramangala,St. John's Hospital,080-45678928
+Dr. Tanvi,#29 JP Nagar,Dermatology,JP Nagar,Kaya Skin Clinic,080-45678929
+Dr. Vikram,#30 Whitefield,Dermatology,Whitefield,Oliva Skin Clinic,080-45678930
+Dr. Shyam,#31 Sadashivanagar,Otolaryngology,Sadashivanagar,Apollo Spectra,080-45678931
+Dr. Iyer,#32 MG Road,Otolaryngology,MG Road,Manipal Hospital,080-45678932
+Dr. Bhat,#33 Indiranagar,Otolaryngology,Indiranagar,Apollo Clinic,080-45678933
+Dr. Gopal,#34 Banashankari,Orthopedics,Banashankari,Sparsh Hospital,080-45678934
+Dr. Harini,#35 Yelahanka,Orthopedics,Yelahanka,Apollo Clinic,080-45678935
+Dr. Nandini,#36 RT Nagar,Neurology,RT Nagar,NIMHANS,080-45678936
+Dr. Ajay,#37 Hennur,Neurosurgery,Hennur,Sakra World Hospital,080-45678937
+Dr. Reena,#38 Peenya,Nephrology,Peenya,Manipal Hospital,080-45678938
+Dr. Mahesh,#39 BTM Layout,Hepatology,BTM Layout,BGS Global Hospital,080-45678939
+Dr. Dev,#40 Ulsoor,Cardiology,Ulsoor,Jayadeva Institute,080-45678940
+Dr. Shreya,#41 Domlur,General Medicine,Domlur,Apollo Clinic,080-45678941
+Dr. Veena,#42 Koramangala,Fertility,Koramangala,Motherhood Hospital,080-45678942
+Dr. Manju,#43 Hanumanthnagar,Fertility,Hanumanthnagar,Cloudnine Hospital,080-45678943
+Dr. Karthik,#44 Jayanagar,Fertility,Jayanagar,Motherhood Hospital,080-45678944
+Dr. Pooja,#45 Indiranagar,Fertility,Indiranagar,Cloudnine Hospital,080-45678945
+Dr. Rohit,#46 Rajajinagar,Fertility,Rajajinagar,Motherhood Hospital,080-45678946
+Dr. Sandeep,#47 Kumaraswamy Layout,General Surgery,Kumaraswamy Layout,Apollo Spectra,080-45678947
+Dr. Ananya,#48 HSR Layout,General Medicine,HSR Layout,Apollo Clinic,080-45678948
+Dr. Farah,#49 Banaswadi,Emergency Medicine,Banaswadi,Victoria Hospital,080-45678949
+Dr. Tarun,#50 Indiranagar,Neurology,Indiranagar,Sakra World Hospital,080-45678950
+Dr. Bhavna,#51 Vasanthnagar,Oncology,Vasanthnagar,HCG Cancer Centre,080-45678951
+Dr. Nikhil,#52 Sampangiramnagar,Oncology,Sampangiramnagar,Apollo Cancer Centre,080-45678952
+Dr. Shruti,#53 Yelahanka,Oncology,Yelahanka,HCG Cancer Centre,080-45678953
+Dr. Dinesh,#54 Electronic City,Oncology,Electronic City,Kidwai Memorial Institute,080-45678954
+Dr. Kavya,#55 Koramangala,Maternity,Koramangala,Cloudnine Hospital,080-45678955
+Dr. Trisha,#56 Sahakar Nagar,Maternity,Sahakar Nagar,Motherhood Hospital,080-45678956
+Dr. Arjun,#57 JP Nagar,Maternity,JP Nagar,Cloudnine Hospital,080-45678957
+Dr. Meenal,#58 Lingarajapuram,Pediatrics,Lingarajapuram,Rainbow Children's Hospital,080-45678958
+Dr. Rakesh,#59 RT Nagar,Pediatrics,RT Nagar,Columbia Asia Hospital,080-45678959
+Dr. Ishita,#60 Banashankari,Pediatrics,Banashankari,Cloudnine Hospital,080-45678960
+Dr. Ameen,#61 Nagarbhavi,General Medicine,Nagarbhavi,BGS Global Hospital,080-45678961
+Dr. Leena,#62 Vijayanagar,General Surgery,Vijayanagar,Apollo Spectra,080-45678962
+Dr. Rafiq,#63 Magadi Road,Orthopedics,Magadi Road,Hosmat Hospital,080-45678963
+Dr. Shalini,#64 Indiranagar,Physiotherapy,Indiranagar,Apollo Clinic,080-45678964
+Dr. Harsha,#65 Jayanagar,Physiotherapy,Jayanagar,St. John's Hospital,080-45678965
+Dr. Nivedita,#66 Koramangala,Physiotherapy,Koramangala,Apollo Clinic,080-45678966
+Dr. Madhav,#67 Sadashivanagar,Psychiatry,Sadashivanagar,NIMHANS,080-45678967
+Dr. Shraddha,#68 Whitefield,Psychiatry,Whitefield,Mind.fit Clinic,080-45678968
+Dr. Keshav,#69 HSR Layout,Psychiatry,HSR Layout,NIMHANS,080-45678969
+Dr. Anupama,#70 Hosur Road,Psychiatry,Hosur Road,Mind.fit Clinic,080-45678970
+Dr. Prakash,#71 Malleshwaram,General Medicine,Malleshwaram,St. Philomena's Hospital,080-45678971
+Dr. Gayathri,#72 Rajarajeshwari Nagar,General Medicine,Rajarajeshwari Nagar,Apollo Clinic,080-45678972
+Dr. Nikhita,#73 RT Nagar,General Surgery,RT Nagar,Apollo Spectra,080-45678973
+Dr. Rohan,#74 Indiranagar,Emergency Medicine,Indiranagar,Victoria Hospital,080-45678974
+Dr. Iqbal,#75 Koramangala,General Surgery,Koramangala,Apollo Spectra,080-45678975
+Dr. Snehal,#76 Richmond Town,Maternity,Richmond Town,Motherhood Hospital,080-45678976
+Dr. Aravind,#77 JP Nagar,Multi-specialty,JP Nagar,Apollo Hospital,080-45678977
+Dr. Bhavya,#78 Yeshwanthpur,Multi-specialty,Yeshwanthpur,Aster CMI Hospital,080-45678978
+Dr. Gokul,#79 Vijayanagar,Multi-specialty,Vijayanagar,Fortis Hospital,080-45678979
+Dr. Meera,#80 Basaveshwaranagar,Multi-specialty,Basaveshwaranagar,Manipal Hospital,080-45678980
+Dr. Vishal,#81 Nagarbhavi,General Medicine,Nagarbhavi,BGS Global Hospital,080-45678981
+Dr. Shweta,#82 Kundalahalli,Ophthalmology,Kundalahalli,Narayana Nethralaya,080-45678982
+Dr. Nayana,#83 Bannerghatta Road,Ophthalmology,Bannerghatta Road,Sankara Eye Hospital,080-45678983
+Dr. Ritu,#84 Jayanagar,Ophthalmology,Jayanagar,Narayana Nethralaya,080-45678984
+Dr. Rakesh,#85 Indiranagar,Dentistry,Indiranagar,Partha Dental,080-45678985
+Dr. Aishwarya,#86 Koramangala,Dentistry,Koramangala,Clove Dental,080-45678986
+Dr. Nitin,#87 Whitefield,Dentistry,Whitefield,Oliva Dental,080-45678987
+Dr. Rupa,#88 JP Nagar,Dentistry,JP Nagar,Partha Dental,080-45678988
+Dr. Kiran,#89 Banashankari,Dentistry,Banashankari,Clove Dental,080-45678989
+Dr. Devika,#90 MG Road,Dermatology,MG Road,Kaya Skin Clinic,080-45678990
+Dr. Anirudh,#91 Indiranagar,Dermatology,Indiranagar,Oliva Skin Clinic,080-45678991
+Dr. Roshni,#92 Koramangala,Dermatology,Koramangala,Kaya Skin Clinic,080-45678992
+Dr. Yash,#93 Whitefield,Dermatology,Whitefield,Oliva Skin Clinic,080-45678993
+Dr. Neelam,#94 Jayanagar,Dermatology,Jayanagar,Kaya Skin Clinic,080-45678994
+Dr. Sreedhar,#95 Sadashivanagar,Otolaryngology,Sadashivanagar,Apollo Spectra,080-45678995
+Dr. Ranjani,#96 Indiranagar,Otolaryngology,Indiranagar,Apollo Clinic,080-45678996
+Dr. Ashok,#97 Koramangala,Otolaryngology,Koramangala,Apollo Spectra,080-45678997
+Dr. Bhaskar,#98 Whitefield,Otolaryngology,Whitefield,Manipal Hospital,080-45678998
+Dr. Lavanya,#99 JP Nagar,Otolaryngology,JP Nagar,Apollo Clinic,080-45678999
+Dr. Vishwanath,#100 Banashankari,Otolaryngology,Banashankari,Sparsh Hospital,080-45679000

@@ -1,0 +1,82 @@
+.profile-page {
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+
+  background: linear-gradient(135deg, #0f0f1c, #1a1a2e, #111827, #0a0a0f);
+  background-size: 600% 600%;
+  animation: profileWaves 18s ease infinite;
+}
+
+.profile-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 25% 30%, rgba(255,0,150,0.15), transparent 60%),
+              radial-gradient(circle at 75% 70%, rgba(0,200,255,0.15), transparent 60%);
+  animation: profilePulse 14s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+.profile-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  max-width: 600px;
+  margin: 0 auto;
+  color: #e5e7eb;
+  position: relative;
+  z-index: 1;
+  animation: fadeIn 1s ease-in;
+}
+
+.profile-card h2 {
+  font-size: 1.8rem;
+  color: #00d9ff;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 8px rgba(0,217,255,0.6);
+}
+
+.profile-subtext {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+}
+
+.profile-info p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #f1f5f9;
+}
+
+.profile-info strong {
+  color: #93c5fd;
+}
+
+.profile-footer {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+/* ✨ Animations */
+@keyframes profileWaves {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes profilePulse {
+  0%   { opacity: 0.6; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.05); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

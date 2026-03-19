@@ -1,0 +1,278 @@
+disease,medicine,cost,annual_cost,symptoms,side_effects,drug_interactions
+Malaria,Artemether-Lumefantrine,150,1800,fever;chills;vomiting,nausea;dizziness,quinine;rifampin
+Dengue,Paracetamol,30,360,fever;rash;muscle pain,nausea;liver stress,aspirin;ibuprofen
+Tuberculosis,Isoniazid,100,1200,cough;weight loss;night sweats,numbness;liver toxicity,phenytoin;carbamazepine
+Typhoid,Ciprofloxacin,80,960,fever;abdominal pain;weakness,nausea;diarrhea,warfarin;theophylline
+Cholera,Doxycycline,60,720,diarrhea;dehydration;vomiting,sensitivity;headache,antacids;iron
+Hepatitis B,Tenofovir,200,2400,fatigue;jaundice;abdominal pain,nausea;renal toxicity,acyclovir;didanosine
+Hepatitis C,Sofosbuvir,350,4200,fatigue;jaundice;joint pain,headache;insomnia,amiodarone;rifampin
+COVID-19,Remdesivir,500,6000,fever;cough;breathlessness,nausea;increased liver enzymes,chloroquine;rifampin
+Influenza,Oseltamivir,120,1440,fever;chills;sore throat,nausea;vomiting,probenecid;live vaccines
+Pneumonia,Azithromycin,90,1080,cough;fever;chest pain,nausea;diarrhea,antacids;digoxin
+Bronchitis,Amoxicillin,70,840,cough;fatigue;chest discomfort,rash;diarrhea,allopurinol;methotrexate
+Sinusitis,Cefuroxime,85,1020,facial pain;nasal congestion;headache,nausea;diarrhea,probenecid;warfarin
+Otitis Media,Amoxicillin-Clavulanate,95,1140,ear pain;fever;irritability,diarrhea;rash,methotrexate;allopurinol
+Conjunctivitis,Chloramphenicol,40,480,red eyes;itching;discharge,stinging;blurred vision,alcohol;warfarin
+Tonsillitis,Penicillin V,50,600,sore throat;fever;swollen glands,rash;diarrhea,methotrexate;oral contraceptives
+Pharyngitis,Erythromycin,75,900,sore throat;fever;headache,nausea;vomiting,warfarin;digoxin
+Gastroenteritis,ORS,20,240,diarrhea;vomiting;dehydration,none,none
+GERD,Omeprazole,60,720,heartburn;acid reflux;chest pain,headache;nausea,clopidogrel;diazepam
+Peptic Ulcer,Ranitidine,55,660,abdominal pain;nausea;indigestion,dizziness;constipation,ketoconazole;warfarin
+IBS,Hyoscine,65,780,abdominal cramps;bloating;diarrhea,dry mouth;blurred vision,antihistamines;tricyclics
+Constipation,Lactulose,45,540,hard stools;bloating;straining,flatulence;cramps,antacids;antibiotics
+Diarrhea,Loperamide,35,420,loose stools;urgency;cramps,drowsiness;dry mouth,quinidine;ritonavir
+Hemorrhoids,Hydrocortisone,50,600,itching;pain;bleeding,skin thinning;burning,none
+Anal Fissure,Nifedipine ointment,70,840,pain;bleeding;spasm,headache;dizziness,beta-blockers;diuretics
+UTI,Nitrofurantoin,80,960,burning urination;fever;urgency,nausea;headache,antacids;quinolones
+Kidney Stones,Tamsulosin,90,1080,flank pain;blood in urine;nausea,dizziness;fatigue,antihypertensives;antifungals
+Prostatitis,Ciprofloxacin,85,1020,pelvic pain;urinary issues;fever,nausea;diarrhea,warfarin;theophylline
+BPH,Finasteride,100,1200,weak stream;urgency;nocturia,sexual dysfunction;dizziness,testosterone;antidepressants
+Erectile Dysfunction,Sildenafil,150,1800,difficulty maintaining erection;low libido,headache;flushing,nitrates;alpha-blockers
+Infertility,Clomiphene,130,1560,irregular cycles;low sperm count;hormonal imbalance,hot flashes;ovarian cysts,tamoxifen;gonadotropins
+PCOS,Metformin,60,720,irregular periods;acne;weight gain,bloating;diarrhea,insulin;alcohol
+Endometriosis,Leuprolide,250,3000,pelvic pain;heavy periods;infertility,hot flashes;mood swings,antidepressants;antihypertensives
+Menopause,HRT,200,2400,hot flashes;mood changes;vaginal dryness,nausea;breast tenderness,anticoagulants;thyroid meds
+Pregnancy,Nutritional supplements,40,480,nausea;fatigue;back pain,none,none
+Anemia,Ferrous Sulfate,50,600,fatigue;pale skin;dizziness,constipation;dark stools,antacids;levodopa
+Thalassemia,Deferasirox,300,3600,fatigue;bone deformities;slow growth,nausea;rash,antacids;NSAIDs
+Sickle Cell Disease,Hydroxyurea,220,2640,pain;fatigue;swelling,nausea;hair loss,antivirals;live vaccines
+Leukemia,Imatinib,400,4800,fever;weight loss;bleeding,nausea;muscle cramps,acetaminophen;warfarin
+Lymphoma,Rituximab,500,6000,swollen lymph nodes;fever;night sweats,infusion reactions;fatigue,methotrexate;live vaccines
+Multiple Myeloma,Bortezomib,550,6600,bone pain;fatigue;frequent infections,nausea;neuropathy,acyclovir;NSAIDs
+Skin Allergy,Loratadine,30,360,itching;rash;redness,drowsiness;dry mouth,alcohol;sedatives
+Eczema,Hydrocortisone cream,45,540,dry skin;itching;red patches,skin thinning;burning,none
+Psoriasis,Methotrexate,200,2400,scaly patches;itching;joint pain,nausea;liver toxicity,NSAIDs;antibiotics
+Acne,Isotretinoin,180,2160,pimples;oiliness;inflammation,dry skin;photosensitivity,tetracyclines;vitamin A
+Rosacea,Metronidazole gel,90,1080,redness;bumps;burning sensation,stinging;dryness,warfarin;disulfiram
+Vitiligo,Topical steroids,100,1200,white patches;sun sensitivity;itching,skin thinning;stretch marks,none
+Fungal Infection,Clotrimazole,40,480,itching;redness;scaling,skin irritation;burning,none
+Ringworm,Terbinafine,60,720,itching;scaly patches;hair loss,nausea;headache,antidepressants;beta-blockers
+Scabies,Permethrin,50,600,intense itching;rash;burrows,skin irritation;burning,none
+Lice,Ivermectin lotion,70,840,itching;visible lice;red bumps,skin irritation;dryness,none
+Warts,Salicylic acid,35,420,raised bumps;rough texture;itching,skin peeling;burning,none
+Astigmatism,Corrective lenses,500,6000,blurred vision;eye strain;headache,none,none
+Cataract,Timolol eye drops,120,1440,cloudy vision;glare;poor night vision,eye irritation;dryness,other eye drops;beta-blockers
+Glaucoma,Latanoprost,150,1800,eye pain;vision loss;halos,eye redness;itching,NSAIDs;antihistamines
+Macular Degeneration,Bevacizumab,400,4800,central vision loss;blurred vision;distortion,eye pain;bleeding,anticoagulants;aspirin
+Retinitis Pigmentosa,Vitamin A,60,720,night blindness;tunnel vision;vision loss,nausea;dry skin,antibiotics;retinoids
+Color Blindness,None,0,0,difficulty distinguishing colors;eye strain,none,none
+Dry Eye Syndrome,Artificial tears,40,480,dryness;burning;redness,blurred vision;stinging,none
+Pink Eye,Antibiotic drops,50,600,redness;itching;discharge,eye irritation;blurred vision,none
+Stye,Warm compress,10,120,painful lump;swelling;redness,none,none
+Blepharitis,Erythromycin ointment,70,840,itching;scaling;red eyelids,eye irritation;blurred vision,warfarin;digoxin
+Tinnitus,Ginkgo biloba,90,1080,ringing ears;dizziness;hearing loss,nausea;headache,anticoagulants;aspirin
+Hearing Loss,Hearing aids,1000,12000,difficulty hearing;social withdrawal;confusion,none,none
+Otitis Externa,Acetic acid drops,60,720,ear pain;itching;discharge,stinging;burning,none
+Vertigo,Betahistine,80,960,dizziness;nausea;balance issues,headache;stomach upset,antihistamines;sedatives
+Meniere’s Disease,Diuretics,100,1200,vertigo;hearing loss;tinnitus,dizziness;dehydration,NSAIDs;ACE inhibitors
+Motion Sickness,Dimenhydrinate,45,540,nausea;vomiting;dizziness,drowsiness;dry mouth,alcohol;sedatives
+Migraine,Sumatriptan,120,1440,headache;nausea;light sensitivity,drowsiness;dry mouth,SSRIs;MAOIs
+Tension Headache,Ibuprofen,30,360,headache;neck pain;fatigue,stomach upset;dizziness,anticoagulants;aspirin
+Cluster Headache,Oxygen therapy,200,2400,severe headache;red eye;nasal congestion,none,none
+Epilepsy,Carbamazepine,150,1800,seizures;confusion;loss of consciousness,drowsiness;rash,MAOIs;antidepressants
+Parkinson’s Disease,Levodopa,250,3000,tremor;rigidity;slow movement,nausea;hallucinations,antipsychotics;MAOIs
+Alzheimer’s Disease,Donepezil,300,3600,memory loss;confusion;behavioral changes,nausea;insomnia,anticholinergics;NSAIDs
+Multiple Sclerosis,Interferon beta,400,4800,numbness;fatigue;vision problems,flu-like symptoms;depression,antidepressants;immunosuppressants
+ALS,Riluzole,350,4200,muscle weakness;slurred speech;difficulty swallowing,nausea;dizziness,NSAIDs;antidepressants
+Stroke,Aspirin,60,720,weakness;speech issues;vision loss,bleeding;stomach upset,anticoagulants;NSAIDs
+Brain Tumor,Temozolomide,500,6000,headache;nausea;seizures,fatigue;hair loss,antivirals;antibiotics
+Bell’s Palsy,Prednisone,100,1200,facial droop;eye dryness;drooling,weight gain;mood changes,NSAIDs;diuretics
+Cerebral Palsy,Physical therapy,300,3600,motor issues;spasticity;coordination problems,none,none
+Hydrocephalus,Shunt surgery,1000,12000,headache;nausea;vision problems,none,none
+Encephalitis,Acyclovir,200,2400,fever;confusion;seizures,nausea;headache,NSAIDs;antibiotics
+Meningitis,Ceftriaxone,180,2160,fever;neck stiffness;photophobia,nausea;diarrhea,antacids;warfarin
+Brain Abscess,Metronidazole,150,1800,headache;fever;neurological deficits,nausea;metallic taste,warfarin;disulfiram
+Schizophrenia,Risperidone,250,3000,delusions;hallucinations;social withdrawal,weight gain;sedation,antidepressants;antihypertensives
+Bipolar Disorder,Lithium,220,2640,mood swings;mania;depression,tremor;weight gain,NSAIDs;diuretics
+Depression,Sertraline,180,2160,sadness;fatigue;loss of interest,nausea;insomnia,MAOIs;NSAIDs
+Anxiety,Alprazolam,160,1920,nervousness;restlessness;palpitations,drowsiness;dependence,alcohol;sedatives
+OCD,Fluoxetine,190,2280,obsessions;compulsions;anxiety,nausea;insomnia,MAOIs;NSAIDs
+PTSD,Paroxetine,200,2400,flashbacks;nightmares;hypervigilance,nausea;sexual dysfunction,MAOIs;anticoagulants
+Autism,Behavioral therapy,400,4800,communication issues;repetitive behavior;social challenges,none,none
+ADHD,Methylphenidate,220,2640,inattention;hyperactivity;impulsivity,insomnia;loss of appetite,MAOIs;antidepressants
+Insomnia,Zolpidem,150,1800,difficulty sleeping;daytime fatigue,drowsiness;dependence,alcohol;sedatives
+Narcolepsy,Modafinil,250,3000,excessive sleepiness;cataplexy;hallucinations,headache;nausea,MAOIs;antidepressants
+Sleep Apnea,CPAP therapy,800,9600,loud snoring;daytime fatigue;gasping,none,none
+Restless Leg Syndrome,Pramipexole,180,2160,urge to move legs;tingling;discomfort,nausea;dizziness,antidepressants;antipsychotics
+Jet Lag,Melatonin,60,720,sleep disruption;fatigue;irritability,drowsiness;headache,sedatives;antidepressants
+Seasonal Affective Disorder,Light therapy,300,3600,low mood;fatigue;oversleeping,none,none
+Panic Disorder,Clonazepam,200,2400,sudden fear;palpitations;shortness of breath,drowsiness;dependence,alcohol;sedatives
+Social Anxiety Disorder,Venlafaxine,220,2640,shyness;fear of judgment;avoidance,nausea;dry mouth,MAOIs;NSAIDs
+Generalized Anxiety Disorder,Buspirone,180,2160,excessive worry;restlessness;fatigue,dizziness;nausea,MAOIs;antidepressants
+Hypertension,Amlodipine,45,540,headache;dizziness;chest pain,swelling;fatigue,simvastatin;diltiazem
+Hyperlipidemia,Atorvastatin,60,720,high cholesterol;fatigue;chest pain,muscle pain;liver issues,grapefruit;antibiotics
+Coronary Artery Disease,Aspirin,50,600,chest pain;shortness of breath;fatigue,bleeding;stomach upset,NSAIDs;warfarin
+Heart Failure,Furosemide,70,840,swelling;fatigue;shortness of breath,dizziness;dehydration,ACE inhibitors;NSAIDs
+Arrhythmia,Amiodarone,150,1800,irregular heartbeat;palpitations;dizziness,nausea;vision changes,warfarin;digoxin
+Angina,Nitroglycerin,80,960,chest pain;shortness of breath;nausea,headache;flushing,sildenafil;antihypertensives
+Myocardial Infarction,Clopidogrel,120,1440,chest pain;sweating;shortness of breath,bleeding;rash,NSAIDs;omeprazole
+Peripheral Artery Disease,Cilostazol,100,1200,leg pain;cramping;fatigue,headache;diarrhea,aspirin;warfarin
+Deep Vein Thrombosis,Warfarin,90,1080,leg swelling;pain;warmth,bleeding;bruising,NSAIDs;antibiotics
+Pulmonary Embolism,Heparin,130,1560,chest pain;shortness of breath;cough,bleeding;low platelets,aspirin;NSAIDs
+Aortic Aneurysm,Beta-blockers,110,1320,chest pain;back pain;shortness of breath,dizziness;fatigue,calcium channel blockers;diuretics
+Varicose Veins,Compression stockings,60,720,swelling;aching;visible veins,skin irritation;discomfort,none
+Raynaud’s Disease,Nifedipine,90,1080,cold fingers;color changes;numbness,headache;dizziness,beta-blockers;diuretics
+Anemia,Ferrous Sulfate,50,600,fatigue;pale skin;dizziness,constipation;dark stools,antacids;levodopa
+Hemophilia,Factor VIII concentrate,400,4800,bleeding;bruising;joint pain,headache;fever,none
+Thrombocytopenia,Prednisone,100,1200,bleeding;bruising;fatigue,weight gain;mood changes,NSAIDs;diuretics
+Leukopenia,Filgrastim,300,3600,infections;fever;fatigue,bone pain;headache,none
+Polycythemia Vera,Hydroxyurea,220,2640,headache;dizziness;itching,nausea;hair loss,antivirals;live vaccines
+Sickle Cell Disease,Hydroxyurea,220,2640,pain;fatigue;swelling,nausea;hair loss,antivirals;live vaccines
+Thalassemia,Deferasirox,300,3600,fatigue;bone deformities;slow growth,nausea;rash,antacids;NSAIDs
+Lymphoma,Rituximab,500,6000,swollen lymph nodes;fever;night sweats,infusion reactions;fatigue,methotrexate;live vaccines
+Leukemia,Imatinib,400,4800,fever;weight loss;bleeding,nausea;muscle cramps,acetaminophen;warfarin
+Multiple Myeloma,Bortezomib,550,6600,bone pain;fatigue;frequent infections,nausea;neuropathy,acyclovir;NSAIDs
+Skin Cancer,Fluorouracil cream,180,2160,lesions;itching;bleeding,skin irritation;redness,none
+Breast Cancer,Letrozole,300,3600,lump;skin changes;nipple discharge,joint pain;hot flashes,tamoxifen;antidepressants
+Prostate Cancer,Leuprolide,250,3000,urinary issues;pelvic pain;fatigue,hot flashes;mood swings,antidepressants;antihypertensives
+Lung Cancer,Cisplatin,400,4800,cough;chest pain;weight loss,nausea;hair loss,NSAIDs;antibiotics
+Colon Cancer,Capecitabine,350,4200,abdominal pain;blood in stool;fatigue,nausea;diarrhea,antacids;warfarin
+Pancreatic Cancer,Gemcitabine,450,5400,abdominal pain;weight loss;jaundice,nausea;fever,NSAIDs;antibiotics
+Ovarian Cancer,Paclitaxel,500,6000,abdominal bloating;pelvic pain;fatigue,nausea;hair loss,antivirals;antibiotics
+Cervical Cancer,Cisplatin,400,4800,bleeding;pelvic pain;fatigue,nausea;hair loss,NSAIDs;antibiotics
+Bladder Cancer,Mitomycin,420,5040,blood in urine;pelvic pain;frequent urination,nausea;burning,antibiotics;NSAIDs
+Kidney Cancer,Sunitinib,480,5760,flank pain;blood in urine;fatigue,nausea;diarrhea,antacids;antibiotics
+Thyroid Cancer,Levothyroxine,100,1200,neck lump;hoarseness;fatigue,nervousness;weight loss,antidepressants;calcium
+Liver Cancer,Sorafenib,550,6600,abdominal pain;jaundice;weight loss,nausea;diarrhea,NSAIDs;antibiotics
+Esophageal Cancer,Fluorouracil,400,4800,swallowing difficulty;chest pain;weight loss,nausea;mouth sores,antacids;warfarin
+Stomach Cancer,Capecitabine,350,4200,abdominal pain;nausea;weight loss,diarrhea;fatigue,NSAIDs;antibiotics
+Brain Cancer,Temozolomide,500,6000,headache;nausea;seizures,fatigue;hair loss,antivirals;antibiotics
+Bone Cancer,Methotrexate,300,3600,bone pain;swelling;fatigue,nausea;liver toxicity,NSAIDs;antibiotics
+Testicular Cancer,Bleomycin,450,5400,lump;pain;swelling,nausea;lung toxicity,NSAIDs;antibiotics
+Penile Cancer,Fluorouracil cream,180,2160,lesions;itching;bleeding,skin irritation;redness,none
+Anal Cancer,Mitomycin,420,5040,bleeding;pain;lump,nausea;burning,antibiotics;NSAIDs
+Vaginal Cancer,Cisplatin,400,4800,bleeding;pain;lump,nausea;hair loss,NSAIDs;antibiotics
+Uterine Cancer,Paclitaxel,500,6000,bleeding;pelvic pain;fatigue,nausea;hair loss,antivirals;antibiotics
+Melanoma,Interferon alpha,480,5760,skin changes;itching;bleeding,flu-like symptoms;fatigue,NSAIDs;antibiotics
+Basal Cell Carcinoma,Imiquimod cream,150,1800,lesions;itching;bleeding,skin irritation;redness,none
+Squamous Cell Carcinoma,Fluorouracil cream,180,2160,lesions;itching;bleeding,skin irritation;redness,none
+Kaposis Sarcoma,Doxorubicin,400,4800,skin lesions;swelling;fatigue,nausea;hair loss,NSAIDs;antibiotics
+Asthma,Salbutamol,80,960,wheezing;cough;shortness of breath,tremor;headache,beta-blockers;diuretics
+COPD,Tiotropium,120,1440,cough;shortness of breath;fatigue,dry mouth;constipation,antihistamines;anticholinergics
+Bronchiectasis,Azithromycin,90,1080,cough;phlegm;chest pain,nausea;diarrhea,antacids;digoxin
+Pulmonary Fibrosis,Nintedanib,400,4800,shortness of breath;dry cough;fatigue,nausea;diarrhea,NSAIDs;antibiotics
+Sarcoidosis,Prednisone,100,1200,shortness of breath;fatigue;skin lesions,weight gain;mood changes,NSAIDs;diuretics
+Pneumonia,Amoxicillin,70,840,cough;fever;chest pain,rash;diarrhea,allopurinol;methotrexate
+Tuberculosis,Isoniazid,100,1200,cough;weight loss;night sweats,numbness;liver toxicity,phenytoin;carbamazepine
+Lung Abscess,Clindamycin,130,1560,cough;fever;chest pain,nausea;diarrhea,neuromuscular blockers;erythromycin
+Pleural Effusion,Furosemide,70,840,shortness of breath;chest pain;cough,dizziness;dehydration,ACE inhibitors;NSAIDs
+Pneumothorax,Oxygen therapy,200,2400,chest pain;shortness of breath;rapid breathing,none,none
+Pulmonary Hypertension,Sildenafil,150,1800,shortness of breath;fatigue;chest pain,headache;flushing,nitrates;alpha-blockers
+Cystic Fibrosis,Pancreatic enzymes,300,3600,cough;weight loss;frequent infections,nausea;abdominal pain,none
+Sleep Apnea,CPAP therapy,800,9600,loud snoring;daytime fatigue;gasping,none,none
+Respiratory Failure,Mechanical ventilation,1000,12000,shortness of breath;confusion;cyanosis,none,none
+ARDS,Supportive care,0,0,shortness of breath;rapid breathing;low oxygen,none,none
+Laryngitis,Voice rest,0,0,hoarseness;sore throat;cough,none,none
+Tracheitis,Antibiotics,100,1200,cough;fever;stridor,nausea;diarrhea,antacids;warfarin
+Bronchiolitis,Saline nebulization,50,600,cough;wheezing;fever,none,none
+Whooping Cough,Erythromycin,75,900,severe cough;vomiting;fatigue,nausea;vomiting,warfarin;digoxin
+Diphtheria,Antitoxin,300,3600,sore throat;fever;swollen glands,allergic reactions;fever,none
+Tetanus,Tetanus immunoglobulin,400,4800,muscle stiffness;spasms;fever,none,none
+Pertussis,Azithromycin,90,1080,severe cough;vomiting;fatigue,nausea;diarrhea,antacids;digoxin
+Measles,Vitamin A,60,720,fever;rash;cough,nausea;headache,none
+Mumps,Supportive care,0,0,swollen glands;fever;headache,none,none
+Rubella,Supportive care,0,0,rash;fever;swollen glands,none,none
+Chickenpox,Acyclovir,200,2400,rash;fever;itching,nausea;headache,NSAIDs;antibiotics
+Smallpox,Supportive care,0,0,fever;rash;fatigue,none,none
+Polio,Supportive care,0,0,weakness;fever;stiff neck,none,none
+Rabies,Rabies immunoglobulin,500,6000,fever;tingling;hydrophobia,none,none
+Zika Virus,Supportive care,0,0,fever;rash;joint pain,none,none
+Chikungunya,Paracetamol,30,360,fever;joint pain;rash,nausea;liver stress,aspirin;ibuprofen
+Ebola,Supportive care,0,0,fever;bleeding;vomiting,none,none
+Marburg Virus,Supportive care,0,0,fever;bleeding;fatigue,none,none
+Hantavirus,Supportive care,0,0,fever;muscle pain;shortness of breath,none,none
+Yellow Fever,Supportive care,0,0,fever;jaundice;bleeding,none,none
+Dengue,Paracetamol,30,360,fever;rash;muscle pain,nausea;liver stress,aspirin;ibuprofen
+Malaria,Artemether-Lumefantrine,150,1800,fever;chills;vomiting,nausea;dizziness,quinine;rifampin
+Leishmaniasis,Amphotericin B,350,4200,fever;weight loss;skin ulcers,nausea;fever,NSAIDs;antibiotics
+Trypanosomiasis,Nifurtimox,300,3600,fever;headache;confusion,nausea;abdominal pain,antacids;antibiotics
+Schistosomiasis,Praziquantel,250,3000,abdominal pain;blood in stool;rash,dizziness;nausea,none
+Filariasis,Diethylcarbamazine,200,2400,swelling;fever;skin thickening,nausea;headache,none
+Ascariasis,Albendazole,60,720,abdominal pain;vomiting;weight loss,nausea;dizziness,none
+Hookworm Infection,Mebendazole,50,600,anemia;abdominal pain;diarrhea,nausea;headache,none
+Pinworm Infection,Pyrantel pamoate,40,480,itching;restlessness;abdominal pain,nausea;cramps,none
+Tapeworm Infection,Niclosamide,70,840,abdominal pain;weight loss;nausea,dizziness;headache,none
+Giardiasis,Metronidazole,150,1800,diarrhea;abdominal cramps;fatigue,nausea;metallic taste,warfarin;disulfiram
+Amoebiasis,Tinidazole,140,1680,diarrhea;abdominal pain;fever,nausea;headache,warfarin;alcohol
+Typhoid,Ciprofloxacin,80,960,fever;abdominal pain;weakness,nausea;diarrhea,warfarin;theophylline
+Cholera,Doxycycline,60,720,diarrhea;dehydration;vomiting,sensitivity;headache,antacids;iron
+Hepatitis A,Supportive care,0,0,jaundice;fever;fatigue,none,none
+Hepatitis B,Tenofovir,200,2400,fatigue;jaundice;abdominal pain,nausea;renal toxicity,acyclovir;didanosine
+Hepatitis C,Sofosbuvir,350,4200,fatigue;jaundice;joint pain,headache;insomnia,amiodarone;rifampin
+Hepatitis D,Supportive care,0,0,jaundice;abdominal pain;fatigue,none,none
+Hepatitis E,Supportive care,0,0,jaundice;fever;nausea,none,none
+Liver Cirrhosis,Spironolactone,100,1200,abdominal swelling;jaundice;fatigue,dizziness;high potassium,ACE inhibitors;NSAIDs
+Fatty Liver Disease,Vitamin E,60,720,fatigue;abdominal discomfort;jaundice,nausea;headache,anticoagulants;statins
+Gallstones,Ursodeoxycholic acid,150,1800,abdominal pain;nausea;vomiting,diarrhea;headache,antacids;cholestyramine
+Pancreatitis,Supportive care,0,0,abdominal pain;nausea;fever,none,none
+Appendicitis,Surgery,1000,12000,abdominal pain;fever;nausea,none,none
+Peritonitis,Cefotaxime,180,2160,abdominal pain;fever;vomiting,nausea;diarrhea,antacids;warfarin
+Gastritis,Omeprazole,60,720,abdominal pain;nausea;indigestion,headache;nausea,clopidogrel;diazepam
+Peptic Ulcer,Ranitidine,55,660,abdominal pain;nausea;indigestion,dizziness;constipation,ketoconazole;warfarin
+GERD,Esomeprazole,70,840,heartburn;acid reflux;chest pain,headache;nausea,clopidogrel;diazepam
+IBD,Mesalamine,200,2400,diarrhea;abdominal pain;weight loss,nausea;headache,NSAIDs;antibiotics
+Crohn’s Disease,Infliximab,400,4800,diarrhea;abdominal pain;fatigue,infusion reactions;headache,immunosuppressants;NSAIDs
+Ulcerative Colitis,Prednisone,100,1200,diarrhea;abdominal pain;blood in stool,weight gain;mood changes,NSAIDs;diuretics
+Celiac Disease,Gluten-free diet,0,0,diarrhea;weight loss;fatigue,none,none
+Food Poisoning,ORS,20,240,diarrhea;vomiting;abdominal pain,none,none
+Lactose Intolerance,Lactase supplements,40,480,bloating;diarrhea;gas,nausea;cramps,none
+Irritable Bowel Syndrome,Hyoscine,65,780,abdominal cramps;bloating;diarrhea,dry mouth;blurred vision,antihistamines;tricyclics
+Constipation,Lactulose,45,540,hard stools;bloating;straining,flatulence;cramps,antacids;antibiotics
+Diarrhea,Loperamide,35,420,loose stools;urgency;cramps,drowsiness;dry mouth,quinidine;ritonavir
+Hemorrhoids,Hydrocortisone,50,600,itching;pain;bleeding,skin thinning;burning,none
+Anal Fissure,Nifedipine ointment,70,840,pain;bleeding;spasm,headache;dizziness,beta-blockers;diuretics
+Rectal Prolapse,Surgery,1000,12000,bulging;bleeding;discomfort,none,none
+Colon Polyps,Surveillance,0,0,none;bleeding;discomfort,none,none
+Diverticulitis,Metronidazole,150,1800,abdominal pain;fever;constipation,nausea;metallic taste,warfarin;disulfiram
+Bowel Obstruction,Surgery,1000,12000,abdominal pain;vomiting;constipation,none,none
+Anal Abscess,Incision and drainage,500,6000,pain;swelling;fever,none,none
+Pilonidal Cyst,Surgery,800,9600,pain;swelling;discharge,none,none
+Hernia,Surgery,1000,12000,bulge;pain;discomfort,none,none
+Hydrocele,Surgery,900,10800,scrotal swelling;pain;discomfort,none,none
+Varicocele,Surgery,950,11400,scrotal pain;swelling;infertility,none,none
+Testicular Torsion,Surgery,1200,14400,severe pain;swelling;nausea,none,none
+Epididymitis,Ciprofloxacin,85,1020,scrotal pain;swelling;fever,nausea;diarrhea,warfarin;theophylline
+Orchitis,Supportive care,0,0,pain;swelling;fever,none,none
+Prostatitis,Ciprofloxacin,85,1020,pelvic pain;urinary issues;fever,nausea;diarrhea,warfarin;theophylline
+BPH,Finasteride,100,1200,weak stream;urgency;nocturia,sexual dysfunction;dizziness,testosterone;antidepressants
+Prostate Cancer,Leuprolide,250,3000,urinary issues;pelvic pain;fatigue,hot flashes;mood swings,antidepressants;antihypertensives
+Penile Cancer,Fluorouracil cream,180,2160,lesions;itching;bleeding,skin irritation;redness,none
+Bladder Infection,Nitrofurantoin,80,960,burning urination;urgency;fever,nausea;headache,antacids;quinolones
+Kidney Infection,Ciprofloxacin,85,1020,flank pain;fever;chills,nausea;diarrhea,warfarin;theophylline
+Interstitial Cystitis,Amitriptyline,120,1440,pelvic pain;urgency;frequency,drowsiness;dry mouth,MAOIs;alcohol
+Nephrotic Syndrome,Prednisone,100,1200,swelling;fatigue;foamy urine,weight gain;mood changes,NSAIDs;diuretics
+Glomerulonephritis,Cyclophosphamide,300,3600,blood in urine;swelling;high BP,nausea;hair loss,live vaccines;NSAIDs
+Kidney Failure,Dialysis,1000,12000,fatigue;swelling;confusion,none,none
+Renal Calculi,Tamsulosin,90,1080,flank pain;blood in urine;nausea,dizziness;fatigue,antihypertensives;antifungals
+Urinary Retention,Bethanechol,70,840,incomplete urination;discomfort;urgency,nausea;headache,anticholinergics;beta-blockers
+Enuresis,Desmopressin,110,1320,bedwetting;nighttime urination;fatigue,headache;nausea,SSRIs;tricyclics
+Incontinence,Oxybutynin,100,1200,leakage;urgency;frequency,dry mouth;constipation,antihistamines;sedatives
+Pelvic Inflammatory Disease,Doxycycline,60,720,abdominal pain;fever;discharge,nausea;photosensitivity,antacids;iron
+Endometriosis,Leuprolide,250,3000,pelvic pain;heavy periods;infertility,hot flashes;mood swings,antidepressants;antihypertensives
+Ovarian Cyst,Oral contraceptives,90,1080,pelvic pain;bloating;irregular periods,nausea;breast tenderness,antibiotics;anticonvulsants
+Fibroids,Tranexamic acid,130,1560,heavy bleeding;pelvic pressure;pain,nausea;diarrhea,oral contraceptives;NSAIDs
+Menstrual Cramps,Ibuprofen,30,360,lower abdominal pain;fatigue;headache,stomach upset;dizziness,anticoagulants;aspirin
+PMS,Fluoxetine,190,2280,mood swings;cramps;fatigue,nausea;insomnia,MAOIs;NSAIDs
+Menopause,HRT,200,2400,hot flashes;mood changes;vaginal dryness,nausea;breast tenderness,anticoagulants;thyroid meds
+Infertility,Clomiphene,130,1560,irregular cycles;low sperm count;hormonal imbalance,hot flashes;ovarian cysts,tamoxifen;gonadotropins
+Ectopic Pregnancy,Surgery,1000,12000,abdominal pain;bleeding;dizziness,none,none
+Miscarriage,Supportive care,0,0,bleeding;cramps;emotional distress,none,none
+Gestational Diabetes,Insulin,200,2400,high blood sugar;fatigue;thirst,hypoglycemia;weight gain,beta-blockers;alcohol
+Preeclampsia,Magnesium sulfate,180,2160,high BP;swelling;headache,flushing;nausea,calcium channel blockers;diuretics
+Placenta Previa,C-section,1200,14400,bleeding;abdominal pain;preterm labor,none,none
+Preterm Labor,Tocolytics,300,3600,contractions;pelvic pressure;backache,nausea;headache,NSAIDs;antihypertensives
+Postpartum Depression,Sertraline,180,2160,sadness;fatigue;loss of interest,nausea;insomnia,MAOIs;NSAIDs
+Mastitis,Dicloxacillin,90,1080,breast pain;swelling;fever,nausea;diarrhea,oral contraceptives;warfarin
+Breast Engorgement,Cold compress,10,120,swelling;pain;firmness,none,none
+Nipple Cracks,Lanolin cream,40,480,pain;bleeding;dryness,skin irritation;allergy,none
+Thrush,Nystatin,70,840,white patches;discomfort;itching,nausea;diarrhea,antibiotics;alcohol
+Bacterial Vaginosis,Metronidazole,150,1800,discharge;odor;itching,nausea;metallic taste,warfarin;disulfiram
+Yeast Infection,Fluconazole,100,1200,itching;discharge;redness,nausea;headache,anticoagulants;statins
+Trichomoniasis,Tinidazole,140,1680,discharge;itching;burning,nausea;headache,warfarin;alcohol
+Chlamydia,Azithromycin,90,1080,discharge;burning urination;pelvic pain,nausea;diarrhea,antacids;digoxin
+Gonorrhea,Ceftriaxone,180,2160,discharge;burning urination;pelvic pain,nausea;diarrhea,antacids;warfarin
+Syphilis,Penicillin G,100,1200,sores;rash;fever,allergic reaction;injection site pain,methotrexate;oral contraceptives
+Genital Herpes,Acyclovir,200,2400,blisters;itching;pain,nausea;headache,NSAIDs;antibiotics
+HPV,Supportive care,0,0,warts;itching;discomfort,none,none
+HIV,Antiretroviral therapy,500,6000,fever;fatigue;weight loss,nausea;diarrhea,rifampin;anticonvulsants
+AIDS,HAART,600,7200,opportunistic infections;weight loss;fatigue,nausea;neuropathy,antifungals;antibiotics

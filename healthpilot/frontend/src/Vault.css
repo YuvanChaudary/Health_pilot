@@ -1,0 +1,181 @@
+.vault-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+
+  /* 🌌 Animated diagonal waves background */
+  background: linear-gradient(135deg, #0a0a0f, #1a1a2e, #16213e, #0f3460);
+  background-size: 600% 600%;
+  animation: vaultWaves 20s ease infinite;
+}
+
+.vault-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 30% 20%, rgba(255,0,150,0.15), transparent 60%),
+              radial-gradient(circle at 70% 80%, rgba(0,200,255,0.15), transparent 60%);
+  animation: vaultPulse 12s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+.vault-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 700px;
+  width: 100%;
+  color: #e5e7eb;
+  position: relative;
+  z-index: 1;
+  animation: fadeIn 1s ease-in;
+}
+
+.vault-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #00d9ff; /* neon cyan accent */
+  text-shadow: 0 0 8px rgba(0,217,255,0.6);
+}
+
+.vault-card input[type="file"],
+.vault-card input[type="text"],
+.vault-card select {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background-color: rgba(255,255,255,0.08);
+  color: #f1f5f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vault-card input:focus,
+.vault-card select:focus {
+  border-color: #00d9ff;
+  box-shadow: 0 0 0 2px rgba(0,217,255,0.4);
+  outline: none;
+}
+
+.vault-card button {
+  margin-top: 0.75rem;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #ff0080, #7928ca, #00d9ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.vault-card button:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(0,217,255,0.6);
+}
+
+.vault-search {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.vault-search input,
+.vault-search select {
+  flex: 1;
+}
+
+.file-list {
+  margin-top: 2rem;
+}
+
+.file-card {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #e5e7eb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,217,255,0.4);
+}
+
+.file-card p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.file-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.file-actions a,
+.file-actions button {
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.file-actions a {
+  background-color: rgba(255,255,255,0.1);
+  color: #f1f5f9;
+}
+
+.file-actions a:hover {
+  background-color: rgba(255,255,255,0.2);
+  transform: scale(1.05);
+}
+
+.file-actions button {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.file-actions button:hover {
+  background-color: #b71c1c;
+  transform: scale(1.05);
+}
+
+/* ✨ Animations */
+@keyframes vaultWaves {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes vaultPulse {
+  0%   { opacity: 0.6; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.05); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.vault-card select,
+.vault-card option {
+  color: #000000; /* black text */
+  background-color: #ffffff; /* optional: white background for contrast */
+}

@@ -1,0 +1,501 @@
+name,address,city,medicine,price
+Apollo Pharmacy,#101 MG Road,Bangalore,Paracetamol,25
+Apollo Pharmacy,#102 MG Road,Bangalore,Metformin,60
+Apollo Pharmacy,#103 MG Road,Bangalore,Amlodipine,45
+Apollo Pharmacy,#104 MG Road,Bangalore,Salbutamol,80
+Apollo Pharmacy,#105 MG Road,Bangalore,Sumatriptan,120
+Apollo Pharmacy,#106 MG Road,Bangalore,Hydroxyurea,220
+Apollo Pharmacy,#107 MG Road,Bangalore,Imatinib,400
+Apollo Pharmacy,#108 MG Road,Bangalore,Loratadine,30
+Apollo Pharmacy,#109 MG Road,Bangalore,Isotretinoin,180
+Apollo Pharmacy,#110 MG Road,Bangalore,Omeprazole,60
+Apollo Pharmacy,#111 MG Road,Bangalore,Ranitidine,55
+Apollo Pharmacy,#112 MG Road,Bangalore,ORS,20
+Apollo Pharmacy,#113 MG Road,Bangalore,Clomiphene,130
+Apollo Pharmacy,#114 MG Road,Bangalore,Leuprolide,250
+Apollo Pharmacy,#115 MG Road,Bangalore,HRT,200
+Apollo Pharmacy,#116 MG Road,Bangalore,Ferrous Sulfate,50
+Apollo Pharmacy,#117 MG Road,Bangalore,Deferasirox,300
+Apollo Pharmacy,#118 MG Road,Bangalore,Bortezomib,550
+Apollo Pharmacy,#119 MG Road,Bangalore,Chloramphenicol,40
+Apollo Pharmacy,#120 MG Road,Bangalore,Penicillin V,50
+Apollo Pharmacy,#121 MG Road,Bangalore,Erythromycin,75
+Apollo Pharmacy,#122 MG Road,Bangalore,Azithromycin,90
+Apollo Pharmacy,#123 MG Road,Bangalore,Cefuroxime,85
+Apollo Pharmacy,#124 MG Road,Bangalore,Amoxicillin,70
+Apollo Pharmacy,#125 MG Road,Bangalore,Amoxicillin-Clavulanate,95
+Apollo Pharmacy,#126 MG Road,Bangalore,Tenofovir,200
+Apollo Pharmacy,#127 MG Road,Bangalore,Sofosbuvir,350
+Apollo Pharmacy,#128 MG Road,Bangalore,Remdesivir,500
+Apollo Pharmacy,#129 MG Road,Bangalore,Oseltamivir,120
+Apollo Pharmacy,#130 MG Road,Bangalore,Losartan,55
+Apollo Pharmacy,#131 MG Road,Bangalore,Hydrochlorothiazide,50
+Apollo Pharmacy,#132 MG Road,Bangalore,Gliclazide,80
+Apollo Pharmacy,#133 MG Road,Bangalore,Sitagliptin,120
+Apollo Pharmacy,#134 MG Road,Bangalore,Beclomethasone inhaler,100
+Apollo Pharmacy,#135 MG Road,Bangalore,Montelukast,90
+Apollo Pharmacy,#136 MG Road,Bangalore,Rifampin,110
+Apollo Pharmacy,#137 MG Road,Bangalore,Ethambutol,100
+Apollo Pharmacy,#138 MG Road,Bangalore,Amitriptyline,150
+Apollo Pharmacy,#139 MG Road,Bangalore,Escitalopram,180
+Apollo Pharmacy,#140 MG Road,Bangalore,Buspirone,160
+Apollo Pharmacy,#141 MG Road,Bangalore,Propranolol,100
+Apollo Pharmacy,#142 MG Road,Bangalore,Domperidone,60
+Apollo Pharmacy,#143 MG Road,Bangalore,Sucralfate,70
+Apollo Pharmacy,#144 MG Road,Bangalore,Azathioprine,200
+Apollo Pharmacy,#145 MG Road,Bangalore,Adalimumab,450
+Apollo Pharmacy,#146 MG Road,Bangalore,Mesalamine,200
+Apollo Pharmacy,#147 MG Road,Bangalore,Topiramate,150
+Apollo Pharmacy,#148 MG Road,Bangalore,Valproate,180
+Apollo Pharmacy,#149 MG Road,Bangalore,Lamotrigine,200
+Apollo Pharmacy,#150 MG Road,Bangalore,Pramipexole,180
+Apollo Pharmacy,#151 MG Road,Bangalore,Selegiline,160
+Apollo Pharmacy,#152 MG Road,Bangalore,Memantine,250
+Apollo Pharmacy,#153 MG Road,Bangalore,Rivastigmine,220
+Apollo Pharmacy,#154 MG Road,Bangalore,Cetirizine,35
+Apollo Pharmacy,#155 MG Road,Bangalore,Fexofenadine,40
+Apollo Pharmacy,#156 MG Road,Bangalore,Calcipotriol cream,90
+Apollo Pharmacy,#157 MG Road,Bangalore,Acitretin,200
+Apollo Pharmacy,#158 MG Road,Bangalore,Clindamycin gel,60
+Apollo Pharmacy,#159 MG Road,Bangalore,Benzoyl peroxide,50
+Apollo Pharmacy,#160 MG Road,Bangalore,Vitamin D,50
+Apollo Pharmacy,#161 MG Road,Bangalore,Calcitonin,200
+Apollo Pharmacy,#162 MG Road,Bangalore,Calcimimetics,250
+Apollo Pharmacy,#163 MG Road,Bangalore,Calcium supplements,100
+Apollo Pharmacy,#164 MG Road,Bangalore,Levodopa,250
+Apollo Pharmacy,#165 MG Road,Bangalore,Donepezil,300
+Apollo Pharmacy,#166 MG Road,Bangalore,Interferon beta,400
+Apollo Pharmacy,#167 MG Road,Bangalore,Riluzole,350
+Apollo Pharmacy,#168 MG Road,Bangalore,Aspirin,60
+Apollo Pharmacy,#169 MG Road,Bangalore,Temozolomide,500
+Apollo Pharmacy,#170 MG Road,Bangalore,Prednisone,100
+Apollo Pharmacy,#171 MG Road,Bangalore,Acyclovir,200
+Apollo Pharmacy,#172 MG Road,Bangalore,Ceftriaxone,180
+Apollo Pharmacy,#173 MG Road,Bangalore,Metronidazole,150
+Apollo Pharmacy,#174 MG Road,Bangalore,Risperidone,250
+Apollo Pharmacy,#175 MG Road,Bangalore,Lithium,220
+Apollo Pharmacy,#176 MG Road,Bangalore,Sertraline,180
+Apollo Pharmacy,#177 MG Road,Bangalore,Alprazolam,160
+Apollo Pharmacy,#178 MG Road,Bangalore,Fluoxetine,190
+Apollo Pharmacy,#179 MG Road,Bangalore,Paroxetine,200
+Apollo Pharmacy,#180 MG Road,Bangalore,Clopidogrel,120
+Apollo Pharmacy,#181 MG Road,Bangalore,Warfarin,90
+Apollo Pharmacy,#182 MG Road,Bangalore,Heparin,130
+Apollo Pharmacy,#183 MG Road,Bangalore,Cilostazol,100
+Apollo Pharmacy,#184 MG Road,Bangalore,Nitroglycerin,80
+Apollo Pharmacy,#185 MG Road,Bangalore,Amiodarone,150
+Apollo Pharmacy,#186 MG Road,Bangalore,Furosemide,70
+Apollo Pharmacy,#187 MG Road,Bangalore,Atorvastatin,60
+Apollo Pharmacy,#188 MG Road,Bangalore,Amlodipine,45
+Apollo Pharmacy,#189 MG Road,Bangalore,Tiotropium,120
+Apollo Pharmacy,#190 MG Road,Bangalore,Nintedanib,400
+Apollo Pharmacy,#191 MG Road,Bangalore,Pancreatic enzymes,300
+Apollo Pharmacy,#192 MG Road,Bangalore,CPAP therapy,800
+Apollo Pharmacy,#193 MG Road,Bangalore,Mechanical ventilation,1000
+Apollo Pharmacy,#194 MG Road,Bangalore,Supportive care,0
+Apollo Pharmacy,#195 MG Road,Bangalore,Voice rest,0
+Apollo Pharmacy,#196 MG Road,Bangalore,Antibiotics,100
+Apollo Pharmacy,#197 MG Road,Bangalore,Saline nebulization,50
+Apollo Pharmacy,#198 MG Road,Bangalore,Antitoxin,300
+Apollo Pharmacy,#199 MG Road,Bangalore,Tetanus immunoglobulin,400
+Apollo Pharmacy,#200 MG Road,Bangalore,Rabies immunoglobulin,500
+MedPlus,#201 JP Nagar,Bangalore,Paracetamol,25
+MedPlus,#202 JP Nagar,Bangalore,Metformin,60
+MedPlus,#203 JP Nagar,Bangalore,Amlodipine,45
+MedPlus,#204 JP Nagar,Bangalore,Salbutamol,80
+MedPlus,#205 JP Nagar,Bangalore,Sumatriptan,120
+MedPlus,#206 JP Nagar,Bangalore,Hydroxyurea,220
+MedPlus,#207 JP Nagar,Bangalore,Imatinib,400
+MedPlus,#208 JP Nagar,Bangalore,Loratadine,30
+MedPlus,#209 JP Nagar,Bangalore,Isotretinoin,180
+MedPlus,#210 JP Nagar,Bangalore,Omeprazole,60
+MedPlus,#211 JP Nagar,Bangalore,Ranitidine,55
+MedPlus,#212 JP Nagar,Bangalore,ORS,20
+MedPlus,#213 JP Nagar,Bangalore,Clomiphene,130
+MedPlus,#214 JP Nagar,Bangalore,Leuprolide,250
+MedPlus,#215 JP Nagar,Bangalore,HRT,200
+MedPlus,#216 JP Nagar,Bangalore,Ferrous Sulfate,50
+MedPlus,#217 JP Nagar,Bangalore,Deferasirox,300
+MedPlus,#218 JP Nagar,Bangalore,Bortezomib,550
+MedPlus,#219 JP Nagar,Bangalore,Chloramphenicol,40
+MedPlus,#220 JP Nagar,Bangalore,Penicillin V,50
+MedPlus,#221 JP Nagar,Bangalore,Erythromycin,75
+MedPlus,#222 JP Nagar,Bangalore,Azithromycin,90
+MedPlus,#223 JP Nagar,Bangalore,Cefuroxime,85
+MedPlus,#224 JP Nagar,Bangalore,Amoxicillin,70
+MedPlus,#225 JP Nagar,Bangalore,Amoxicillin-Clavulanate,95
+MedPlus,#226 JP Nagar,Bangalore,Tenofovir,200
+MedPlus,#227 JP Nagar,Bangalore,Sofosbuvir,350
+MedPlus,#228 JP Nagar,Bangalore,Remdesivir,500
+MedPlus,#229 JP Nagar,Bangalore,Oseltamivir,120
+MedPlus,#230 JP Nagar,Bangalore,Losartan,55
+MedPlus,#231 JP Nagar,Bangalore,Hydrochlorothiazide,50
+MedPlus,#232 JP Nagar,Bangalore,Gliclazide,80
+MedPlus,#233 JP Nagar,Bangalore,Sitagliptin,120
+MedPlus,#234 JP Nagar,Bangalore,Beclomethasone inhaler,100
+MedPlus,#235 JP Nagar,Bangalore,Montelukast,90
+MedPlus,#236 JP Nagar,Bangalore,Rifampin,110
+MedPlus,#237 JP Nagar,Bangalore,Ethambutol,100
+MedPlus,#238 JP Nagar,Bangalore,Amitriptyline,150
+MedPlus,#239 JP Nagar,Bangalore,Escitalopram,180
+MedPlus,#240 JP Nagar,Bangalore,Buspirone,160
+MedPlus,#241 JP Nagar,Bangalore,Propranolol,100
+MedPlus,#242 JP Nagar,Bangalore,Domperidone,60
+MedPlus,#243 JP Nagar,Bangalore,Sucralfate,70
+MedPlus,#244 JP Nagar,Bangalore,Azathioprine,200
+MedPlus,#245 JP Nagar,Bangalore,Adalimumab,450
+MedPlus,#246 JP Nagar,Bangalore,Mesalamine,200
+MedPlus,#247 JP Nagar,Bangalore,Topiramate,150
+MedPlus,#248 JP Nagar,Bangalore,Valproate,180
+MedPlus,#249 JP Nagar,Bangalore,Lamotrigine,200
+MedPlus,#250 JP Nagar,Bangalore,Pramipexole,180
+MedPlus,#251 JP Nagar,Bangalore,Selegiline,160
+MedPlus,#252 JP Nagar,Bangalore,Memantine,250
+MedPlus,#253 JP Nagar,Bangalore,Rivastigmine,220
+MedPlus,#254 JP Nagar,Bangalore,Cetirizine,35
+MedPlus,#255 JP Nagar,Bangalore,Fexofenadine,40
+MedPlus,#256 JP Nagar,Bangalore,Calcipotriol cream,90
+MedPlus,#257 JP Nagar,Bangalore,Acitretin,200
+MedPlus,#258 JP Nagar,Bangalore,Clindamycin gel,60
+MedPlus,#259 JP Nagar,Bangalore,Benzoyl peroxide,50
+MedPlus,#260 JP Nagar,Bangalore,Vitamin D,50
+MedPlus,#261 JP Nagar,Bangalore,Calcitonin,200
+MedPlus,#262 JP Nagar,Bangalore,Calcimimetics,250
+MedPlus,#263 JP Nagar,Bangalore,Calcium supplements,100
+MedPlus,#264 JP Nagar,Bangalore,Levodopa,250
+MedPlus,#265 JP Nagar,Bangalore,Donepezil,300
+MedPlus,#266 JP Nagar,Bangalore,Interferon beta,400
+MedPlus,#267 JP Nagar,Bangalore,Riluzole,350
+MedPlus,#268 JP Nagar,Bangalore,Aspirin,60
+MedPlus,#269 JP Nagar,Bangalore,Temozolomide,500
+MedPlus,#270 JP Nagar,Bangalore,Prednisone,100
+MedPlus,#271 JP Nagar,Bangalore,Acyclovir,200
+MedPlus,#272 JP Nagar,Bangalore,Ceftriaxone,180
+MedPlus,#273 JP Nagar,Bangalore,Metronidazole,150
+MedPlus,#274 JP Nagar,Bangalore,Risperidone,250
+MedPlus,#275 JP Nagar,Bangalore,Lithium,220
+MedPlus,#276 JP Nagar,Bangalore,Sertraline,180
+MedPlus,#277 JP Nagar,Bangalore,Alprazolam,160
+MedPlus,#278 JP Nagar,Bangalore,Fluoxetine,190
+MedPlus,#279 JP Nagar,Bangalore,Paroxetine,200
+MedPlus,#280 JP Nagar,Bangalore,Clopidogrel,120
+MedPlus,#281 JP Nagar,Bangalore,Warfarin,90
+MedPlus,#282 JP Nagar,Bangalore,Heparin,130
+MedPlus,#283 JP Nagar,Bangalore,Cilostazol,100
+MedPlus,#284 JP Nagar,Bangalore,Nitroglycerin,80
+MedPlus,#285 JP Nagar,Bangalore,Amiodarone,150
+MedPlus,#286 JP Nagar,Bangalore,Furosemide,70
+MedPlus,#287 JP Nagar,Bangalore,Atorvastatin,60
+MedPlus,#288 JP Nagar,Bangalore,Amlodipine,45
+MedPlus,#289 JP Nagar,Bangalore,Tiotropium,120
+MedPlus,#290 JP Nagar,Bangalore,Nintedanib,400
+MedPlus,#291 JP Nagar,Bangalore,Pancreatic enzymes,300
+MedPlus,#292 JP Nagar,Bangalore,CPAP therapy,800
+MedPlus,#293 JP Nagar,Bangalore,Mechanical ventilation,1000
+MedPlus,#294 JP Nagar,Bangalore,Supportive care,0
+MedPlus,#295 JP Nagar,Bangalore,Voice rest,0
+MedPlus,#296 JP Nagar,Bangalore,Antibiotics,100
+MedPlus,#297 JP Nagar,Bangalore,Saline nebulization,50
+MedPlus,#298 JP Nagar,Bangalore,Antitoxin,300
+MedPlus,#299 JP Nagar,Bangalore,Tetanus immunoglobulin,400
+MedPlus,#300 JP Nagar,Bangalore,Rabies immunoglobulin,500
+Netmeds,#301 Indiranagar,Bangalore,Paracetamol,25
+Netmeds,#302 Indiranagar,Bangalore,Metformin,60
+Netmeds,#303 Indiranagar,Bangalore,Amlodipine,45
+Netmeds,#304 Indiranagar,Bangalore,Salbutamol,80
+Netmeds,#305 Indiranagar,Bangalore,Sumatriptan,120
+Netmeds,#306 Indiranagar,Bangalore,Hydroxyurea,220
+Netmeds,#307 Indiranagar,Bangalore,Imatinib,400
+Netmeds,#308 Indiranagar,Bangalore,Loratadine,30
+Netmeds,#309 Indiranagar,Bangalore,Isotretinoin,180
+Netmeds,#310 Indiranagar,Bangalore,Omeprazole,60
+Netmeds,#311 Indiranagar,Bangalore,Ranitidine,55
+Netmeds,#312 Indiranagar,Bangalore,ORS,20
+Netmeds,#313 Indiranagar,Bangalore,Clomiphene,130
+Netmeds,#314 Indiranagar,Bangalore,Leuprolide,250
+Netmeds,#315 Indiranagar,Bangalore,HRT,200
+Netmeds,#316 Indiranagar,Bangalore,Ferrous Sulfate,50
+Netmeds,#317 Indiranagar,Bangalore,Deferasirox,300
+Netmeds,#318 Indiranagar,Bangalore,Bortezomib,550
+Netmeds,#319 Indiranagar,Bangalore,Chloramphenicol,40
+Netmeds,#320 Indiranagar,Bangalore,Penicillin V,50
+Netmeds,#321 Indiranagar,Bangalore,Erythromycin,75
+Netmeds,#322 Indiranagar,Bangalore,Azithromycin,90
+Netmeds,#323 Indiranagar,Bangalore,Cefuroxime,85
+Netmeds,#324 Indiranagar,Bangalore,Amoxicillin,70
+Netmeds,#325 Indiranagar,Bangalore,Amoxicillin-Clavulanate,95
+Netmeds,#326 Indiranagar,Bangalore,Tenofovir,200
+Netmeds,#327 Indiranagar,Bangalore,Sofosbuvir,350
+Netmeds,#328 Indiranagar,Bangalore,Remdesivir,500
+Netmeds,#329 Indiranagar,Bangalore,Oseltamivir,120
+Netmeds,#330 Indiranagar,Bangalore,Losartan,55
+Netmeds,#331 Indiranagar,Bangalore,Hydrochlorothiazide,50
+Netmeds,#332 Indiranagar,Bangalore,Gliclazide,80
+Netmeds,#333 Indiranagar,Bangalore,Sitagliptin,120
+Netmeds,#334 Indiranagar,Bangalore,Beclomethasone inhaler,100
+Netmeds,#335 Indiranagar,Bangalore,Montelukast,90
+Netmeds,#336 Indiranagar,Bangalore,Rifampin,110
+Netmeds,#337 Indiranagar,Bangalore,Ethambutol,100
+Netmeds,#338 Indiranagar,Bangalore,Amitriptyline,150
+Netmeds,#339 Indiranagar,Bangalore,Escitalopram,180
+Netmeds,#340 Indiranagar,Bangalore,Buspirone,160
+Netmeds,#341 Indiranagar,Bangalore,Propranolol,100
+Netmeds,#342 Indiranagar,Bangalore,Domperidone,60
+Netmeds,#343 Indiranagar,Bangalore,Sucralfate,70
+Netmeds,#344 Indiranagar,Bangalore,Azathioprine,200
+Netmeds,#345 Indiranagar,Bangalore,Adalimumab,450
+Netmeds,#346 Indiranagar,Bangalore,Mesalamine,200
+Netmeds,#347 Indiranagar,Bangalore,Topiramate,150
+Netmeds,#348 Indiranagar,Bangalore,Valproate,180
+Netmeds,#349 Indiranagar,Bangalore,Lamotrigine,200
+Netmeds,#350 Indiranagar,Bangalore,Pramipexole,180
+Netmeds,#351 Indiranagar,Bangalore,Selegiline,160
+Netmeds,#352 Indiranagar,Bangalore,Memantine,250
+Netmeds,#353 Indiranagar,Bangalore,Rivastigmine,220
+Netmeds,#354 Indiranagar,Bangalore,Cetirizine,35
+Netmeds,#355 Indiranagar,Bangalore,Fexofenadine,40
+Netmeds,#356 Indiranagar,Bangalore,Calcipotriol cream,90
+Netmeds,#357 Indiranagar,Bangalore,Acitretin,200
+Netmeds,#358 Indiranagar,Bangalore,Clindamycin gel,60
+Netmeds,#359 Indiranagar,Bangalore,Benzoyl peroxide,50
+Netmeds,#360 Indiranagar,Bangalore,Vitamin D,50
+Netmeds,#361 Indiranagar,Bangalore,Calcitonin,200
+Netmeds,#362 Indiranagar,Bangalore,Calcimimetics,250
+Netmeds,#363 Indiranagar,Bangalore,Calcium supplements,100
+Netmeds,#364 Indiranagar,Bangalore,Levodopa,250
+Netmeds,#365 Indiranagar,Bangalore,Donepezil,300
+Netmeds,#366 Indiranagar,Bangalore,Interferon beta,400
+Netmeds,#367 Indiranagar,Bangalore,Riluzole,350
+Netmeds,#368 Indiranagar,Bangalore,Aspirin,60
+Netmeds,#369 Indiranagar,Bangalore,Temozolomide,500
+Netmeds,#370 Indiranagar,Bangalore,Prednisone,100
+Netmeds,#371 Indiranagar,Bangalore,Acyclovir,200
+Netmeds,#372 Indiranagar,Bangalore,Ceftriaxone,180
+Netmeds,#373 Indiranagar,Bangalore,Metronidazole,150
+Netmeds,#374 Indiranagar,Bangalore,Risperidone,250
+Netmeds,#375 Indiranagar,Bangalore,Lithium,220
+Netmeds,#376 Indiranagar,Bangalore,Sertraline,180
+Netmeds,#377 Indiranagar,Bangalore,Alprazolam,160
+Netmeds,#378 Indiranagar,Bangalore,Fluoxetine,190
+Netmeds,#379 Indiranagar,Bangalore,Paroxetine,200
+Netmeds,#380 Indiranagar,Bangalore,Clopidogrel,120
+Netmeds,#381 Indiranagar,Bangalore,Warfarin,90
+Netmeds,#382 Indiranagar,Bangalore,Heparin,130
+Netmeds,#383 Indiranagar,Bangalore,Cilostazol,100
+Netmeds,#384 Indiranagar,Bangalore,Nitroglycerin,80
+Netmeds,#385 Indiranagar,Bangalore,Amiodarone,150
+Netmeds,#386 Indiranagar,Bangalore,Furosemide,70
+Netmeds,#387 Indiranagar,Bangalore,Atorvastatin,60
+Netmeds,#388 Indiranagar,Bangalore,Amlodipine,45
+Netmeds,#389 Indiranagar,Bangalore,Tiotropium,120
+Netmeds,#390 Indiranagar,Bangalore,Nintedanib,400
+Netmeds,#391 Indiranagar,Bangalore,Pancreatic enzymes,300
+Netmeds,#392 Indiranagar,Bangalore,CPAP therapy,800
+Netmeds,#393 Indiranagar,Bangalore,Mechanical ventilation,1000
+Netmeds,#394 Indiranagar,Bangalore,Supportive care,0
+Netmeds,#395 Indiranagar,Bangalore,Voice rest,0
+Netmeds,#396 Indiranagar,Bangalore,Antibiotics,100
+Netmeds,#397 Indiranagar,Bangalore,Saline nebulization,50
+Netmeds,#398 Indiranagar,Bangalore,Antitoxin,300
+Netmeds,#399 Indiranagar,Bangalore,Tetanus immunoglobulin,400
+Netmeds,#400 Indiranagar,Bangalore,Rabies immunoglobulin,500
+1mg,#401 Koramangala,Bangalore,Paracetamol,25
+1mg,#402 Koramangala,Bangalore,Metformin,60
+1mg,#403 Koramangala,Bangalore,Amlodipine,45
+1mg,#404 Koramangala,Bangalore,Salbutamol,80
+1mg,#405 Koramangala,Bangalore,Sumatriptan,120
+1mg,#406 Koramangala,Bangalore,Hydroxyurea,220
+1mg,#407 Koramangala,Bangalore,Imatinib,400
+1mg,#408 Koramangala,Bangalore,Loratadine,30
+1mg,#409 Koramangala,Bangalore,Isotretinoin,180
+1mg,#410 Koramangala,Bangalore,Omeprazole,60
+1mg,#411 Koramangala,Bangalore,Ranitidine,55
+1mg,#412 Koramangala,Bangalore,ORS,20
+1mg,#413 Koramangala,Bangalore,Clomiphene,130
+1mg,#414 Koramangala,Bangalore,Leuprolide,250
+1mg,#415 Koramangala,Bangalore,HRT,200
+1mg,#416 Koramangala,Bangalore,Ferrous Sulfate,50
+1mg,#417 Koramangala,Bangalore,Deferasirox,300
+1mg,#418 Koramangala,Bangalore,Bortezomib,550
+1mg,#419 Koramangala,Bangalore,Chloramphenicol,40
+1mg,#420 Koramangala,Bangalore,Penicillin V,50
+1mg,#421 Koramangala,Bangalore,Erythromycin,75
+1mg,#422 Koramangala,Bangalore,Azithromycin,90
+1mg,#423 Koramangala,Bangalore,Cefuroxime,85
+1mg,#424 Koramangala,Bangalore,Amoxicillin,70
+1mg,#425 Koramangala,Bangalore,Amoxicillin-Clavulanate,95
+1mg,#426 Koramangala,Bangalore,Tenofovir,200
+1mg,#427 Koramangala,Bangalore,Sofosbuvir,350
+1mg,#428 Koramangala,Bangalore,Remdesivir,500
+1mg,#429 Koramangala,Bangalore,Oseltamivir,120
+1mg,#430 Koramangala,Bangalore,Losartan,55
+1mg,#431 Koramangala,Bangalore,Hydrochlorothiazide,50
+1mg,#432 Koramangala,Bangalore,Gliclazide,80
+1mg,#433 Koramangala,Bangalore,Sitagliptin,120
+1mg,#434 Koramangala,Bangalore,Beclomethasone inhaler,100
+1mg,#435 Koramangala,Bangalore,Montelukast,90
+1mg,#436 Koramangala,Bangalore,Rifampin,110
+1mg,#437 Koramangala,Bangalore,Ethambutol,100
+1mg,#438 Koramangala,Bangalore,Amitriptyline,150
+1mg,#439 Koramangala,Bangalore,Escitalopram,180
+1mg,#440 Koramangala,Bangalore,Buspirone,160
+1mg,#441 Koramangala,Bangalore,Propranolol,100
+1mg,#442 Koramangala,Bangalore,Domperidone,60
+1mg,#443 Koramangala,Bangalore,Sucralfate,70
+1mg,#444 Koramangala,Bangalore,Azathioprine,200
+1mg,#445 Koramangala,Bangalore,Adalimumab,450
+1mg,#446 Koramangala,Bangalore,Mesalamine,200
+1mg,#447 Koramangala,Bangalore,Topiramate,150
+1mg,#448 Koramangala,Bangalore,Valproate,180
+1mg,#449 Koramangala,Bangalore,Lamotrigine,200
+1mg,#450 Koramangala,Bangalore,Pramipexole,180
+1mg,#451 Koramangala,Bangalore,Selegiline,160
+1mg,#452 Koramangala,Bangalore,Memantine,250
+1mg,#453 Koramangala,Bangalore,Rivastigmine,220
+1mg,#454 Koramangala,Bangalore,Cetirizine,35
+1mg,#455 Koramangala,Bangalore,Fexofenadine,40
+1mg,#456 Koramangala,Bangalore,Calcipotriol cream,90
+1mg,#457 Koramangala,Bangalore,Acitretin,200
+1mg,#458 Koramangala,Bangalore,Clindamycin gel,60
+1mg,#459 Koramangala,Bangalore,Benzoyl peroxide,50
+1mg,#460 Koramangala,Bangalore,Vitamin D,50
+1mg,#461 Koramangala,Bangalore,Calcitonin,200
+1mg,#462 Koramangala,Bangalore,Calcimimetics,250
+1mg,#463 Koramangala,Bangalore,Calcium supplements,100
+1mg,#464 Koramangala,Bangalore,Levodopa,250
+1mg,#465 Koramangala,Bangalore,Donepezil,300
+1mg,#466 Koramangala,Bangalore,Interferon beta,400
+1mg,#467 Koramangala,Bangalore,Riluzole,350
+1mg,#468 Koramangala,Bangalore,Aspirin,60
+1mg,#469 Koramangala,Bangalore,Temozolomide,500
+1mg,#470 Koramangala,Bangalore,Prednisone,100
+1mg,#471 Koramangala,Bangalore,Acyclovir,200
+1mg,#472 Koramangala,Bangalore,Ceftriaxone,180
+1mg,#473 Koramangala,Bangalore,Metronidazole,150
+1mg,#474 Koramangala,Bangalore,Risperidone,250
+1mg,#475 Koramangala,Bangalore,Lithium,220
+1mg,#476 Koramangala,Bangalore,Sertraline,180
+1mg,#477 Koramangala,Bangalore,Alprazolam,160
+1mg,#478 Koramangala,Bangalore,Fluoxetine,190
+1mg,#479 Koramangala,Bangalore,Paroxetine,200
+1mg,#480 Koramangala,Bangalore,Clopidogrel,120
+1mg,#481 Koramangala,Bangalore,Warfarin,90
+1mg,#482 Koramangala,Bangalore,Heparin,130
+1mg,#483 Koramangala,Bangalore,Cilostazol,100
+1mg,#484 Koramangala,Bangalore,Nitroglycerin,80
+1mg,#485 Koramangala,Bangalore,Amiodarone,150
+1mg,#486 Koramangala,Bangalore,Furosemide,70
+1mg,#487 Koramangala,Bangalore,Atorvastatin,60
+1mg,#488 Koramangala,Bangalore,Amlodipine,45
+1mg,#489 Koramangala,Bangalore,Tiotropium,120
+1mg,#490 Koramangala,Bangalore,Nintedanib,400
+1mg,#491 Koramangala,Bangalore,Pancreatic enzymes,300
+1mg,#492 Koramangala,Bangalore,CPAP therapy,800
+1mg,#493 Koramangala,Bangalore,Mechanical ventilation,1000
+1mg,#494 Koramangala,Bangalore,Supportive care,0
+1mg,#495 Koramangala,Bangalore,Voice rest,0
+1mg,#496 Koramangala,Bangalore,Antibiotics,100
+1mg,#497 Koramangala,Bangalore,Saline nebulization,50
+1mg,#498 Koramangala,Bangalore,Antitoxin,300
+1mg,#499 Koramangala,Bangalore,Tetanus immunoglobulin,400
+1mg,#500 Koramangala,Bangalore,Rabies immunoglobulin,500
+Pharmeasy,#501 Whitefield,Bangalore,Paracetamol,25
+Pharmeasy,#502 Whitefield,Bangalore,Metformin,60
+Pharmeasy,#503 Whitefield,Bangalore,Amlodipine,45
+Pharmeasy,#504 Whitefield,Bangalore,Salbutamol,80
+Pharmeasy,#505 Whitefield,Bangalore,Sumatriptan,120
+Pharmeasy,#506 Whitefield,Bangalore,Hydroxyurea,220
+Pharmeasy,#507 Whitefield,Bangalore,Imatinib,400
+Pharmeasy,#508 Whitefield,Bangalore,Loratadine,30
+Pharmeasy,#509 Whitefield,Bangalore,Isotretinoin,180
+Pharmeasy,#510 Whitefield,Bangalore,Omeprazole,60
+Pharmeasy,#511 Whitefield,Bangalore,Ranitidine,55
+Pharmeasy,#512 Whitefield,Bangalore,ORS,20
+Pharmeasy,#513 Whitefield,Bangalore,Clomiphene,130
+Pharmeasy,#514 Whitefield,Bangalore,Leuprolide,250
+Pharmeasy,#515 Whitefield,Bangalore,HRT,200
+Pharmeasy,#516 Whitefield,Bangalore,Ferrous Sulfate,50
+Pharmeasy,#517 Whitefield,Bangalore,Deferasirox,300
+Pharmeasy,#518 Whitefield,Bangalore,Bortezomib,550
+Pharmeasy,#519 Whitefield,Bangalore,Chloramphenicol,40
+Pharmeasy,#520 Whitefield,Bangalore,Penicillin V,50
+Pharmeasy,#521 Whitefield,Bangalore,Erythromycin,75
+Pharmeasy,#522 Whitefield,Bangalore,Azithromycin,90
+Pharmeasy,#523 Whitefield,Bangalore,Cefuroxime,85
+Pharmeasy,#524 Whitefield,Bangalore,Amoxicillin,70
+Pharmeasy,#525 Whitefield,Bangalore,Amoxicillin-Clavulanate,95
+Pharmeasy,#526 Whitefield,Bangalore,Tenofovir,200
+Pharmeasy,#527 Whitefield,Bangalore,Sofosbuvir,350
+Pharmeasy,#528 Whitefield,Bangalore,Remdesivir,500
+Pharmeasy,#529 Whitefield,Bangalore,Oseltamivir,120
+Pharmeasy,#530 Whitefield,Bangalore,Losartan,55
+Pharmeasy,#531 Whitefield,Bangalore,Hydrochlorothiazide,50
+Pharmeasy,#532 Whitefield,Bangalore,Gliclazide,80
+Pharmeasy,#533 Whitefield,Bangalore,Sitagliptin,120
+Pharmeasy,#534 Whitefield,Bangalore,Beclomethasone inhaler,100
+Pharmeasy,#535 Whitefield,Bangalore,Montelukast,90
+Pharmeasy,#536 Whitefield,Bangalore,Rifampin,110
+Pharmeasy,#537 Whitefield,Bangalore,Ethambutol,100
+Pharmeasy,#538 Whitefield,Bangalore,Amitriptyline,150
+Pharmeasy,#539 Whitefield,Bangalore,Escitalopram,180
+Pharmeasy,#540 Whitefield,Bangalore,Buspirone,160
+Pharmeasy,#541 Whitefield,Bangalore,Propranolol,100
+Pharmeasy,#542 Whitefield,Bangalore,Domperidone,60
+Pharmeasy,#543 Whitefield,Bangalore,Sucralfate,70
+Pharmeasy,#544 Whitefield,Bangalore,Azathioprine,200
+Pharmeasy,#545 Whitefield,Bangalore,Adalimumab,450
+Pharmeasy,#546 Whitefield,Bangalore,Mesalamine,200
+Pharmeasy,#547 Whitefield,Bangalore,Topiramate,150
+Pharmeasy,#548 Whitefield,Bangalore,Valproate,180
+Pharmeasy,#549 Whitefield,Bangalore,Lamotrigine,200
+Pharmeasy,#550 Whitefield,Bangalore,Pramipexole,180
+Pharmeasy,#551 Whitefield,Bangalore,Selegiline,160
+Pharmeasy,#552 Whitefield,Bangalore,Memantine,250
+Pharmeasy,#553 Whitefield,Bangalore,Rivastigmine,220
+Pharmeasy,#554 Whitefield,Bangalore,Cetirizine,35
+Pharmeasy,#555 Whitefield,Bangalore,Fexofenadine,40
+Pharmeasy,#556 Whitefield,Bangalore,Calcipotriol cream,90
+Pharmeasy,#557 Whitefield,Bangalore,Acitretin,200
+Pharmeasy,#558 Whitefield,Bangalore,Clindamycin gel,60
+Pharmeasy,#559 Whitefield,Bangalore,Benzoyl peroxide,50
+Pharmeasy,#560 Whitefield,Bangalore,Vitamin D,50
+Pharmeasy,#561 Whitefield,Bangalore,Calcitonin,200
+Pharmeasy,#562 Whitefield,Bangalore,Calcimimetics,250
+Pharmeasy,#563 Whitefield,Bangalore,Calcium supplements,100
+Pharmeasy,#564 Whitefield,Bangalore,Levodopa,250
+Pharmeasy,#565 Whitefield,Bangalore,Donepezil,300
+Pharmeasy,#566 Whitefield,Bangalore,Interferon beta,400
+Pharmeasy,#567 Whitefield,Bangalore,Riluzole,350
+Pharmeasy,#568 Whitefield,Bangalore,Aspirin,60
+Pharmeasy,#569 Whitefield,Bangalore,Temozolomide,500
+Pharmeasy,#570 Whitefield,Bangalore,Prednisone,100
+Pharmeasy,#571 Whitefield,Bangalore,Acyclovir,200
+Pharmeasy,#572 Whitefield,Bangalore,Ceftriaxone,180
+Pharmeasy,#573 Whitefield,Bangalore,Metronidazole,150
+Pharmeasy,#574 Whitefield,Bangalore,Risperidone,250
+Pharmeasy,#575 Whitefield,Bangalore,Lithium,220
+Pharmeasy,#576 Whitefield,Bangalore,Sertraline,180
+Pharmeasy,#577 Whitefield,Bangalore,Alprazolam,160
+Pharmeasy,#578 Whitefield,Bangalore,Fluoxetine,190
+Pharmeasy,#579 Whitefield,Bangalore,Paroxetine,200
+Pharmeasy,#580 Whitefield,Bangalore,Clopidogrel,120
+Pharmeasy,#581 Whitefield,Bangalore,Warfarin,90
+Pharmeasy,#582 Whitefield,Bangalore,Heparin,130
+Pharmeasy,#583 Whitefield,Bangalore,Cilostazol,100
+Pharmeasy,#584 Whitefield,Bangalore,Nitroglycerin,80
+Pharmeasy,#585 Whitefield,Bangalore,Amiodarone,150
+Pharmeasy,#586 Whitefield,Bangalore,Furosemide,70
+Pharmeasy,#587 Whitefield,Bangalore,Atorvastatin,60
+Pharmeasy,#588 Whitefield,Bangalore,Amlodipine,45
+Pharmeasy,#589 Whitefield,Bangalore,Tiotropium,120
+Pharmeasy,#590 Whitefield,Bangalore,Nintedanib,400
+Pharmeasy,#591 Whitefield,Bangalore,Pancreatic enzymes,300
+Pharmeasy,#592 Whitefield,Bangalore,CPAP therapy,800
+Pharmeasy,#593 Whitefield,Bangalore,Mechanical ventilation,1000
+Pharmeasy,#594 Whitefield,Bangalore,Supportive care,0
+Pharmeasy,#595 Whitefield,Bangalore,Voice rest,0
+Pharmeasy,#596 Whitefield,Bangalore,Antibiotics,100
+Pharmeasy,#597 Whitefield,Bangalore,Saline nebulization,50
+Pharmeasy,#598 Whitefield,Bangalore,Antitoxin,300
+Pharmeasy,#599 Whitefield,Bangalore,Tetanus immunoglobulin,400
+Pharmeasy,#600 Whitefield,Bangalore,Rabies immunoglobulin,500
